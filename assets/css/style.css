@@ -7,3 +7,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img{
+    opacity: 0.5;
+    width: 85%;
+    margin-left: 7.5%;
+    position: absolute;
+}
+
+#header{
+    
+}

@@ -18,6 +18,7 @@ The main goal of this project is to provide an accessible quote generator throug
 Home renovation is a very complex topic and the decision about which type of clientele to target was a difficult one. After careful consideration came to the conclusion that the 2 major targets for this project are: 
 * New home buyers
 * 60+ citizens
+
 The reason behind this seemingly odd choice was dictated by the fact that in both cases there are plenty of circumstances in which the subjects would start a renovation journey. In the first case, for first time home owners it is typical for them to close a mortgage on a house with plenty of restyling already in mind and given the young age, a large group of them is inclined to carry the burden of a DIY project. 
 
 For the second type of possible audience for this website, the reasoning behind was that once retirement is near or already the present condition is not unusual to start contacting companies to work on house that has seen many years of use and tear. In this case the senior citizen could definitely make the most out of a simple and immediate platform to estimate the cost and scope of the renovation.
