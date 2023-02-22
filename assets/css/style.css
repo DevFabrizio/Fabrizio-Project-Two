@@ -1,0 +1,9 @@
+/* Google Fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+/* universal rule for font and for margin, padding and box-sizing */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
