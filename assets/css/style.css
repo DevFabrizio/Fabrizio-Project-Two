@@ -52,9 +52,10 @@ input[type=number]{
     align-items: center;
 }
 
-#materials > h2{
+h2{
     text-transform: uppercase;
     font-size: 6vw;
+    margin-bottom: 8vw;
 }
 
 #checkboxes-container{
@@ -64,7 +65,49 @@ input[type=number]{
     margin-bottom: 9vw;
 }
 
+#checkboxes-quantity{
+    display: flex;
+    gap: 12vw;
+    margin-bottom: 9vw;
+}
 
+/* style of brick type section */
 
+#brick-type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#brick-type-container{
+    display: flex;
+    flex-direction: row;
+    gap: 12vw;
+    margin-bottom: 9vw;
+}
+
+/* style hours of work section */
+
+#hours-of-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* style total cost section */
+
+#total-cost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* style final list section */
+
+#final-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
