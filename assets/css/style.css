@@ -12,28 +12,23 @@ body{
     font-family: 'Nanum Myeongjo';
 }
 
-img{
-    opacity: 0.4;
+#main-bg{
     width: 85%;
     margin-left: 7.5%;
     margin-top: 15%;
     position: absolute;
+    opacity: 0.5;
+    z-index: -1;
 }
 
 #header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3vw;
 }
 
 #info-icon{
-    background-color: rgb(46, 46, 46);
-    opacity: 0.8;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
+    height: 14vw;
 }
 
-#info-icon > i{
-    margin-left: 34%;
-}
