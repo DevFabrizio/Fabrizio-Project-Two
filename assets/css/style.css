@@ -8,9 +8,13 @@
     box-sizing: border-box;
 }
 
+/* body rule set in order to apply the font to every element */
+
 body{
     font-family: 'Nanum Myeongjo';
 }
+
+/* background style and layout */
 
 #main-bg{
     width: 85%;
@@ -20,6 +24,8 @@ body{
     opacity: 0.5;
     z-index: -1;
 }
+
+/* style of the header section */
 
 #header{
     display: flex;
@@ -31,4 +37,34 @@ body{
 #info-icon{
     height: 14vw;
 }
+
+/* style of the main section */
+
+/* style of the materials section */
+
+input[type=number]{
+    width: 8vw;
+}
+
+#materials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#materials > h2{
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+
+#checkboxes-container{
+    display: flex;
+    flex-direction: row;
+    gap: 12vw;
+    margin-bottom: 9vw;
+}
+
+
+
+
 
