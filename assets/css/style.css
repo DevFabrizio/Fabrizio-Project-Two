@@ -67,7 +67,7 @@ h2{
 
 #checkboxes-quantity{
     display: flex;
-    gap: 12vw;
+    gap: 2vw;
     margin-bottom: 9vw;
 }
 
@@ -82,7 +82,7 @@ h2{
 #brick-type-container{
     display: flex;
     flex-direction: row;
-    gap: 12vw;
+    gap: 8vw;
     margin-bottom: 9vw;
 }
 
