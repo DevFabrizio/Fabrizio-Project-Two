@@ -34,17 +34,33 @@ body{
     margin-top: 3vw;
 }
 
+#header-title{
+    font-size: 8vw;
+}
+
 #info-icon{
     height: 14vw;
-    margin-top: 10vw;
+    margin-top: 8vw;
+    margin-bottom: 4vw;
 }
 
 /* style of the main section */
 
 /* style of the materials section */
 
+input{
+    width: 6vw;
+    height: 6vw;
+}
+
 input[type=number]{
     width: 8vw;
+    height: 6vw;
+}
+
+label{
+    font-weight: bold;
+    font-size: 5vw;
 }
 
 #materials{
