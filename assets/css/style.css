@@ -49,8 +49,7 @@ body{
 /* style of the materials section */
 
 input{
-    width: 6vw;
-    height: 6vw;
+    height: 3vw;
 }
 
 input[type=number]{
@@ -64,7 +63,7 @@ label{
 }
 
 #materials{
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -91,10 +90,22 @@ h2{
 .materials-explained p{
     padding: 1em;
     text-align: right;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 span{
     padding: 0.5em;
+    margin-left: 4%;
+    background-color: rgba(200, 200, 200, 0.7);
+    border: 2px solid firebrick;
+    border-radius: 6px;
+    font-size: larger;
+}
+
+span:hover{
+    box-shadow: 2px 2px 3px black;
 }
 
 /* style of brick type section */
@@ -125,18 +136,20 @@ span{
     padding: 1em;
     margin-top: 2vw;
     text-align: center;
+    font-weight: 600;
 }
 
 /* style total cost section */
 
 #total-cost{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
 
 #total-cost h3{
     text-transform: uppercase;
+    font-size: x-large;
 }
 
 #total-cost p{
@@ -145,12 +158,38 @@ span{
 /* style final list section */
 
 #final-list{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
 
 #final-list h4{
     text-transform: capitalize;
+    font-size: larger;
 }
 
+/* responsiveness for tablet */
+
+/* materials section */
+
+@media screen and (min-width: 425px) {
+    input[type=number]{
+        width: 5vw;
+        height: 3vw;
+    }
+}
+
+/* responsiveness for laptop */
+
+/* materials section */
+
+@media screen and (min-width:768px) {
+    input[type=number]{
+        width: 3vw;
+        height: 2vw;
+    }
+
+    label{
+        font-size: 3vw;
+    }
+}
