@@ -64,7 +64,7 @@ label{
 }
 
 #materials{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
@@ -110,6 +110,7 @@ span{
     flex-direction: row;
     gap: 8vw;
     margin-bottom: 9vw;
+    margin-left: 8vw;
 }
 
 /* style hours of work section */
@@ -120,20 +121,36 @@ span{
     align-items: center;
 }
 
+#hours-of-work p{
+    padding: 1em;
+    margin-top: 2vw;
+    text-align: center;
+}
+
 /* style total cost section */
 
 #total-cost{
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+#total-cost h3{
+    text-transform: uppercase;
+}
+
+#total-cost p{
+    padding: 1em;
+}
 /* style final list section */
 
 #final-list{
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+#final-list h4{
+    text-transform: capitalize;
+}
 
