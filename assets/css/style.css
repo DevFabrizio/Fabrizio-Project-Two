@@ -108,6 +108,24 @@ span:hover{
     box-shadow: 2px 2px 3px black;
 }
 
+.next-button{
+    width: 3rem;
+    height: 1.6rem;
+    background-color: white;
+    text-align: center;
+    line-height: 133%;
+    border: 3px solid black;
+    border-radius: 5px ;
+}
+
+.next-button:hover{
+    box-shadow: 3px 3px 3px grey;
+}
+
+.next-button > p{
+    font-weight: 600;
+}
+
 /* style of brick type section */
 
 #brick-type{
