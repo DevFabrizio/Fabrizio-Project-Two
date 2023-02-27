@@ -68,6 +68,10 @@ label{
     align-items: center;
 }
 
+.materials-details{
+    margin-top: 8vw;
+}
+
 h2{
     text-transform: uppercase;
     font-size: 6vw;
@@ -111,7 +115,7 @@ span:hover{
 .next-button{
     width: 3rem;
     height: 1.6rem;
-    background-color: white;
+    background-color:  rgba(200, 200, 200, 0.7);
     text-align: center;
     line-height: 133%;
     border: 3px solid black;
@@ -150,7 +154,7 @@ span:hover{
     align-items: center;
 }
 
-#hours-of-work p{
+#hours-of-work > p{
     padding: 1em;
     margin-top: 2vw;
     text-align: center;
