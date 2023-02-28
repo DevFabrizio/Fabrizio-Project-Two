@@ -24,9 +24,11 @@
  // list of functions to shift through materials, bricks and hours of work
      
 function nextPage(event){
-    let materialsSection = document.getElementById('material-section');
+
+    let materialsSection = document.getElementById('materials');
     materialsSection.style.display = 'none';
+    
 }
 
-let nextButton = document.getElementsByClassName('next-button');
+let nextButton = document.getElementsByClassName('next-button')[0];
 nextButton.addEventListener("click", nextPage);
