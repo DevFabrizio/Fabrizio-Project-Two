@@ -23,12 +23,40 @@
 
  // list of functions to shift through materials, bricks and hours of work
      
-function nextPage(event){
+function brickPage(event){
 
     let materialsSection = document.getElementById('materials');
     materialsSection.style.display = 'none';
+    let brickType = document.getElementById('brick-type');
+    brickType.style.display = 'flex';
+       
+}
+
+function hoursOfWorkPage(event){
+    
+    let brickType = document.getElementById('brick-type');
+    brickType.style.display = 'none';
+    let hoursOfWork = document.getElementById('hours-of-work');
+    hoursOfWork.style.display = 'flex';
     
 }
 
+function totalCostList(event){
+
+    let hoursOfWork = document.getElementById('hours-of-work');
+    hoursOfWork.style.display = 'none';
+    document.getElementById('total-cost').style.display = 'flex';
+    document.getElementById('final-list').style.display = 'flex';
+
+}
 let nextButton = document.getElementsByClassName('next-button')[0];
-nextButton.addEventListener("click", nextPage);
+nextButton.addEventListener("click", brickPage);
+
+let nextButton1 = document.getElementsByClassName('next-button')[1];
+nextButton1.addEventListener('click', hoursOfWorkPage);
+
+let nextButton2 = document.getElementsByClassName('next-button')[2];
+nextButton2.addEventListener('click', totalCostList)
+
+// functions to run the quote generator
+// function to insert data into the list of items
