@@ -5,7 +5,9 @@
 [amIresponsive link]()
 ## UX
 ### Strategy Plane
+When approaching the main strategy and the initial phase of this project I thought about something that would be able to help the user get useful information in a very brief span of time. The main idea to create a quote generator for home renovation projects came to me because of my father who has been in this specific business his whole life. 
 ### Scope Plane
+As a specific scope the website aims to provide a range of options to choose from and to establish the quantity needed. The final output is then given back to the user based on the information that they provided. The general goals were to create a platform easy to use and that would elicit a positive response from the user.
 ### Structure Plane
 ### Skeleton Plane
 ### Surface Plane
