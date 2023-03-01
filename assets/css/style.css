@@ -120,10 +120,11 @@ span:hover{
     line-height: 133%;
     border: 3px solid black;
     border-radius: 5px ;
+    cursor: pointer;
 }
 
 .next-button:hover{
-    box-shadow: 3px 3px 3px grey;
+    box-shadow: 3px 3px 3px rgb(20, 19, 19);
 }
 
 .next-button > p{
