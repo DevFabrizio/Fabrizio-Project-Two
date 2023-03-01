@@ -11,6 +11,7 @@ As a specific scope the website aims to provide a range of options to choose fro
 ### Structure Plane
 The decisions on the general structure of the project where taken considering a layout that would have allowed to implement future features and mostly a user interface that was easy to maintain and access. With responsiveness is mind the information is layered on a series of interfaces with matching structure as to maintain a sense of familiarity while interacting with the different sections of the website
 ### Skeleton Plane
+Various blocks of the project have been designed to accomodate inputs from the user. In addition to that, below the interactive part of the website I have also included a section that provides information about the current possible interactions of the projects. The website develops mainly in a vertical fashion to allow better responsiveness for mobile.
 ### Surface Plane
 #### Fonts, Colors and Style Choices
 Starting from the font used, the idea was to utilize a style that would make the user feel that "old school" appereance. Any full cursive type of font would have the defeated the purpose of immediate access to the information. Knowing that the first few seconds on a website are crucial I took the decision to go with Nanum Myeongjo because it was on of the few that hit the right spot between style and functionality.
