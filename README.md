@@ -9,6 +9,7 @@ When approaching the main strategy and the initial phase of this project I thoug
 ### Scope Plane
 As a specific scope the website aims to provide a range of options to choose from and to establish the quantity needed. The final output is then given back to the user based on the information that they provided. The general goals were to create a platform easy to use and that would elicit a positive response from the user.
 ### Structure Plane
+The decisions on the general structure of the project where taken considering a layout that would have allowed to implement future features and mostly a user interface that was easy to maintain and access. With responsiveness is mind the information is layered on a series of interfaces with matching structure as to maintain a sense of familiarity while interacting with the different sections of the website
 ### Skeleton Plane
 ### Surface Plane
 #### Fonts, Colors and Style Choices
