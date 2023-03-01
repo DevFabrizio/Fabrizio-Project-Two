@@ -13,8 +13,11 @@ The decisions on the general structure of the project where taken considering a 
 ### Skeleton Plane
 Various blocks of the project have been designed to accomodate inputs from the user. In addition to that, below the interactive part of the website I have also included a section that provides information about the current possible interactions of the projects. The website develops mainly in a vertical fashion to allow better responsiveness for mobile.
 ### Surface Plane
+Planning for the surface plane was relatively easy as in I didn't want to create an interface with as many interactive features as possible but rather a structure that would have served the purpose it was designed for. 
 #### Fonts, Colors and Style Choices
 Starting from the font used, the idea was to utilize a style that would make the user feel that "old school" appereance. Any full cursive type of font would have the defeated the purpose of immediate access to the information. Knowing that the first few seconds on a website are crucial I took the decision to go with Nanum Myeongjo because it was on of the few that hit the right spot between style and functionality.
+
+The background chosen was decided to recall the general purpose of the website but also to provide a simple image that allowed the user to scroll through the content without distractions. 
 [Color Palette Used]()
 ## Project Goals
 The main goal of this project is to provide an accessible quote generator through an interactive single webpage. The website would provide an easy-to-use interface through which the clients have the possibility of calculating the total cost of the materials they need to complete a home diy renovation project or for a contractor to know the amount of capital to invest in a specific job. Due to the infinite amount of variables to include in the time needed for the project it would have been unwise of me to try an estimate that on the project. 

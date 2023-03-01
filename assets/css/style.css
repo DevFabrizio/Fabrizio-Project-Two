@@ -221,6 +221,10 @@ span:hover{
         width: 5vw;
         height: 3vw;
     }
+
+    .materials-explained > p{
+        font-size: 1em;
+    }
 }
 
 /* responsiveness for laptop */
@@ -235,5 +239,9 @@ span:hover{
 
     label{
         font-size: 3vw;
+    }
+
+    .materials-explained > p{
+        font-size: 1.2em;
     }
 }
