@@ -131,6 +131,10 @@ span:hover{
     font-weight: 600;
 }
 
+#hours-of-work > .next-button{
+    margin-bottom: 6vw;
+}
+
 /* style of brick type section */
 
 #brick-type{
