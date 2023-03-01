@@ -49,6 +49,15 @@ function totalCostList(event){
     document.getElementById('final-list').style.display = 'flex';
 
 }
+
+function backToMainPage(event){
+
+    document.getElementById('total-cost').style.display = 'none';
+    document.getElementById('final-list').style.display = 'none';
+    document.getElementById('materials').style.display = 'flex';
+
+}
+
 let nextButton = document.getElementsByClassName('next-button')[0];
 nextButton.addEventListener("click", brickPage);
 
@@ -56,7 +65,10 @@ let nextButton1 = document.getElementsByClassName('next-button')[1];
 nextButton1.addEventListener('click', hoursOfWorkPage);
 
 let nextButton2 = document.getElementsByClassName('next-button')[2];
-nextButton2.addEventListener('click', totalCostList)
+nextButton2.addEventListener('click', totalCostList);
+
+let mainPageButton = document.getElementById('back');
+mainPageButton.addEventListener('click', backToMainPage);
 
 // functions to run the quote generator
 // function to insert data into the list of items

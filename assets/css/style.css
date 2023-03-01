@@ -195,6 +195,23 @@ span:hover{
     font-size: larger;
 }
 
+#back{
+    width: 5rem;
+    height: 1.6rem;
+    background-color:  rgba(200, 200, 200, 0.7);
+    text-align: center;
+    line-height: 133%;
+    border: 3px solid black;
+    border-radius: 5px ;
+    cursor: pointer;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+#back > p{
+    font-weight: 600;
+}
+
 /* responsiveness for tablet */
 
 /* materials section */
