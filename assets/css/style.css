@@ -42,6 +42,7 @@ body{
     height: 14vw;
     margin-top: 8vw;
     margin-bottom: 4vw;
+    cursor: pointer;
 }
 
 #info-box{
