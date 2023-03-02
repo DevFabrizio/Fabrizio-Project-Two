@@ -33,6 +33,7 @@ For the second type of possible audience for this website, the reasoning behind 
 ## Interactions and Features
 ### Feautures Used
 ### Future Features
+This project is meant to be able to evolve overtime and implement a wide range of options to generate a much complete quote of all the materials required to complete a renovation. One of the many features that could be added overtime is surely an improved list of materials. Obviously related to materials we have prices. The most useful upgrade that I think could be added is an average price for the materials updated daily from the catalogues of sector-leading companies. This would assure that the user would obtain a result which matches a true price that they could find in a regular supply store.
 ## Testing and Technologies
 ### Tech Used
 The main technologies used for this project are:
