@@ -70,5 +70,21 @@ nextButton2.addEventListener('click', totalCostList);
 let mainPageButton = document.getElementById('back');
 mainPageButton.addEventListener('click', backToMainPage);
 
+// function to show the website instructions
+
+function information(event){
+
+    let infoBox = document.getElementById('info-box');
+    if (infoBox.style.display === 'none'){
+        infoBox.style.display = 'flex';
+    }else{
+        infoBox.style.display = 'none'
+    }
+
+}
+
+let infoBox = document.getElementById('info-icon');
+infoBox.addEventListener('click', information);
+
 // functions to run the quote generator
 // function to insert data into the list of items
