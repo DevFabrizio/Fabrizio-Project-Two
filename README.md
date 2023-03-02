@@ -35,7 +35,12 @@ For the second type of possible audience for this website, the reasoning behind 
 ### Future Features
 ## Testing and Technologies
 ### Tech Used
+The main technologies used for this project are:
+* HTML
+* CSS 
+* JavaScript
 ### Bugs
+Among the various bugs I have encoutered the first was a mistake in targeting an html collection on JS instead of a single element. I used a "getElementsByClassName" with its appropriate index to get the result I needed.
 ### HTML, CSS and JavaScript Validation 
 ## Lighthouse Report
 ## Deployment and Updates
