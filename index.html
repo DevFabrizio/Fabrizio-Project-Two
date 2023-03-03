@@ -13,18 +13,22 @@
     <title>Bricks Quote</title>
 </head>
 <body>
+    <!-- background image for the whole page -->
     <img id="main-bg" src="assets/img/bricks-bg.webp" alt="an image of a wall of red bricks">
-    <!-- header section with a visible title and a icon -->
-    <section id="header">
+    <!-- Main section with interactive features -->
+    <main id="interactive-container">
+        <!-- header section with a visible title and a icon -->
+    <header id="header">
         <h1 id="header-title">Bricks' Quote</h1>
         <img  id="info-icon" src="assets/img/info-icon.png" alt="the image of in information icon">
+        <!-- information box with instructions for the website -->
         <div id="info-box">
             <h5>How to use this website</h5>
             <p>This website was created as a quick tool to get a quotation for the cost of your home renovation project. On the first page select the type of material and the quantity you need, then click on the "next" button. On the second page do the same with your chosen type of brick and the quantity proceeding by clicking "next". Once on the third page you can add the number of your planned for the project and then by clicking "next" once again obtain the final cost with a complete list of the items you've picked.
             </p>
         </div>
-    </section>
-    <main id="interactive-container">
+    </header>
+    <!-- materials section with interactive content for the user -->
         <section id="materials">
             <h2>materials</h2>
             <div id="checkboxes-container">
@@ -41,6 +45,7 @@
                     <input type="checkbox" name="cement" id="cement" required>
                 </div>
             </div>
+            <!-- section with quantity input for the user to choose from -->
             <div class="checkboxes-quantity">
                 <div id="mortar-qty-box">
                     <label for="mortar-quantity">Qty (kg)</label>
@@ -55,9 +60,11 @@
                     <input type="number" name="cement-quantity" id="cement-quantity" required>
                 </div>
             </div>
+            <!-- div used as a button to move through the sections -->
             <div class="next-button">
                 <p>Next</p>
             </div>
+            <!-- section with brief explaination of the materials -->
             <div class="materials-details"> 
                 <div class="materials-explained">
                     <span><strong>Mortar</strong></span>
@@ -73,6 +80,7 @@
                 </div>
             </div>
         </section>
+        <!-- section with interactive input for the user to choose from -->
         <section id="brick-type">
             <h2>brick type</h2>
             <div id="brick-type-container">
@@ -89,6 +97,7 @@
                     <input type="checkbox" name="Concrete brick" id="Concrete brick" required>
                 </div>
             </div>
+            <!-- section with quantity for the type of brick chosen by the user -->
             <div class="checkboxes-quantity">
                 <div id="red-bricks-qty">
                     <label for="red-bricks-quantity">Qty (kg)</label>
@@ -103,9 +112,11 @@
                     <input type="number" name="recycled-bricks-quantity" id="recycled-bricks-quantity" required>
                 </div>
             </div>
+            <!-- button to move through the sections (action enabled by JS) -->
             <div class="next-button">
                 <p>Next</p>
             </div>
+            <!-- section with explaination of the type of brick chosen -->
             <div class="materials-details">
                 <div class="materials-explained">
                     <span><strong>Red bricks</strong></span>
@@ -121,26 +132,32 @@
                     </div>
                 </div>
             </section>
+            <!-- section with the hours of work with brief explaination to consider for the user -->
             <section id="hours-of-work">
                 <h2>hours of work</h2>
                 <input type="number" name="total-hours" id="total-hours">
                 <p>When accounting for hours of work there are plenty of variables to consider. As a general rule of thumb always assume that the project is gonna require you more time than planned. In this context it is wise to allocate at least 30% more time to every phase of the process. Some of the unpredictable factors to keep in mind are: weather, late deliveries, faulty equipment, injuries, human errors and so on. The main point to take away from this is that is highly unlikely that you'll be able to stick to a tight schedule, so always keep your time-line and approach to rate of progress flexible enough to allow for corrections along the way. </p>
+                <!-- div used as a button to toggle thorugh the sections -->
                 <div class="next-button">
                     <p>Next</p>
                 </div>
             </section>
+            <!-- total cost section that will display the final cost with JS -->
         <section id="total-cost">
             <h3>total cost</h3>
             <p>0</p>
         </section>
+        <!-- final list of all the items and quantities chosen by the user -->
         <section id="final-list">
             <h4>list of materials</h4>
             <ul></ul>
+            <!-- div used as a button to move back to the materials section of the website -->
             <div id="back">
                 <p>Go Back</p>
             </div>
         </section>
     </main>
+    <!-- JavaScript links -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
