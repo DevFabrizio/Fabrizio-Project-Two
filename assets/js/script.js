@@ -1,23 +1,40 @@
 // variables ready to be defined after content loading
 
+const infoIcon = ''
+const mortarInput = '' 
+const sandInput = ''
+const cementInput = '' 
+const mortarQty = ''
+const sandQty = ''
+const cementQty = '' 
+const redBricksInput = ''
+const stoneBricksInput = ''
+const concreteBricksInput = ''
+const redBricksQty = ''
+const stoneBricksQty = ''
+const concreteBricksQty = ''
+const hoursOfWorkInput = ''
+const totalCost = ''
+
+  
+
  document.addEventListener("DOMContentLoaded", function() {
 
-     let infoIcon = document.getElementById("info-icon");
-     let mortarInput = document.getElementById("mortar");
-     let sandInput = document.getElementById("sand");
-     let cementInput = document.getElementById("cement");
-     let mortarQty = document.getElementById("mortar-qty");
-     let sandQty = document.getElementById("sand-qty");
-     let cementQty = document.getElementById("cement-qty");
-     let redBricksInput = document.getElementById("red-bricks");
-     let stoneBricksInput = document.getElementById("stone-bricks");
-     let concreteBricksInput = document.getElementById("concrete-bricks");
-     let redBricksQty = document.getElementById("red-bricks-qty");
-     let stoneBricksQty =document.getElementById("stone-bricks-qty") ;
-     let concreteBricksQty =document.getElementById("concrete-bricks-qty") ;
-     let hoursOfWorkInput = document.getElementById("hours-of-work");
-     let totalCost = document.getElementById("total-cost");
-     let nextButton = document.getElementsByClassName("next-button");
+    const infoIcon = document.getElementById("info-icon");
+    const mortarInput = document.getElementById("mortar");
+    const sandInput = document.getElementById("sand");
+    const cementInput = document.getElementById("cement");
+    const mortarQty = document.getElementById("mortar-qty");
+    const sandQty = document.getElementById("sand-qty");
+    const cementQty = document.getElementById("cement-qty");
+    const redBricksInput = document.getElementById("red-bricks");
+    const stoneBricksInput = document.getElementById("stone-bricks");
+    const concreteBricksInput = document.getElementById("concrete-bricks");
+    const redBricksQty = document.getElementById("red-bricks-qty");
+    const stoneBricksQty =document.getElementById("stone-bricks-qty") ;
+    const concreteBricksQty =document.getElementById("concrete-bricks-qty") ;
+    const hoursOfWorkInput = document.getElementById("hours-of-work");
+    const totalCost = document.getElementById("total-cost");
       
 })
 
@@ -85,6 +102,7 @@ function information(event){
 
 let infoBox = document.getElementById('info-icon');
 infoBox.addEventListener('click', information);
+
 
 // functions to run the quote generator
 // function to insert data into the list of items
