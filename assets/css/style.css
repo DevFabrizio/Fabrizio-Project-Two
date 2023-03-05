@@ -94,6 +94,7 @@ label{
 
 .materials-details{
     margin-top: 8vw;
+    margin-bottom: 3rem;
 }
 
 h2{
@@ -234,6 +235,21 @@ span:hover{
 
 #back > p{
     font-weight: 600;
+}
+
+/* footer section */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgb(151, 144, 144) 55%, rgb(207, 54, 12) 100%);
 }
 
 /* responsiveness for tablet */
