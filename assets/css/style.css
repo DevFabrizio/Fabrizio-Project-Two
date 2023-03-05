@@ -39,8 +39,8 @@ body{
 
 #info-icon{
     height: 14vw;
-    margin-top: 8vw;
-    margin-bottom: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 7vw;
     cursor: pointer;
 }
 
@@ -90,8 +90,6 @@ label{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-image: url(/assets/img/architecture-concept-with-clipboard.webp);
-    background-repeat: no-repeat; */
 }
 
 #interactive-section-bg{
@@ -112,7 +110,8 @@ label{
 h2{
     text-transform: uppercase;
     font-size: 6vw;
-    margin-bottom: 8vw;
+    margin-bottom: 2vw;
+    margin-top: 6vw;
 }
 
 #checkboxes-container{
@@ -190,6 +189,10 @@ span:hover{
     gap: 8vw;
     margin-bottom: 9vw;
     margin-left: 8vw;
+}
+
+#brick-type > img{
+    top: 37vw;
 }
 
 /* style hours of work section */
@@ -275,9 +278,11 @@ footer{
 
 /* responsiveness for tablet */
 
-/* materials section */
 
 @media screen and (min-width: 425px) {
+    
+    /* materials section */
+
     input[type=number]{
         width: 5vw;
         height: 3vw;
@@ -286,13 +291,29 @@ footer{
     .materials-explained > p{
         font-size: 1em;
     }
+
+    h2{
+        margin-bottom: 6vw;
+    }
+
+    /* brick-type section */
+
+    #brick-type > img{
+        height: 60vw;
+    }
+
+    #brick-type > .checkboxes-quantity {
+        gap: 7vw;
+    }
 }
 
 /* responsiveness for laptop */
 
-/* materials section */
 
 @media screen and (min-width:768px) {
+    
+    /* materials section */
+
     input[type=number]{
         width: 3vw;
         height: 2vw;
@@ -305,6 +326,22 @@ footer{
     .materials-explained > p{
         font-size: 1.2em;
     }
+
+    .materials-details{
+        margin-top: 20vw;
+        margin-bottom: 3rem;
+    }
+
+    h2{
+        margin-bottom: 8vw;
+    }
+
+
+    /* brick-type section */
+
+    #brick-type > .materials-details{
+        margin-top: 23vw;
+    }
 }
 
 /* responisiveness for mobile */
@@ -315,7 +352,7 @@ footer{
     /* brick-type section */
     
     #brick-type > .checkboxes-quantity{
-        gap: 5vw;
+        gap: 3vw;
     }
     
     /* materials section */
