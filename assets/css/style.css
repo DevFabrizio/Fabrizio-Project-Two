@@ -168,6 +168,10 @@ span:hover{
     align-items: center;
 }
 
+#brick-type > .checkboxes-quantity{
+    gap: 12vw;
+}
+
 #brick-type-container{
     display: flex;
     flex-direction: row;
@@ -289,4 +293,15 @@ footer{
     .materials-explained > p{
         font-size: 1.2em;
     }
+}
+
+/* responisiveness for mobile */
+
+/* brick-type section */
+@media screen and (max-width:424px) {
+    
+    #brick-type > .checkboxes-quantity{
+        gap: 5vw;
+}
+
 }
