@@ -90,12 +90,14 @@ mainPageButton.addEventListener('click', backToMainPage);
 // function to show the website instructions
 
 function information(event){
-
+    let bgImage = document.getElementById('interactive-section-bg');
     let infoBox = document.getElementById('info-box');
     if (infoBox.style.display === 'none'){
         infoBox.style.display = 'flex';
+        bgImage.style.display = 'none'
     }else{
         infoBox.style.display = 'none'
+        bgImage.style.display = 'block'
     }
 
 }

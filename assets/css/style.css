@@ -90,10 +90,22 @@ label{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-image: url(/assets/img/architecture-concept-with-clipboard.webp);
+    background-repeat: no-repeat; */
+}
+
+#interactive-section-bg{
+    width: 92%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    border-radius: 15px;
+    top: 33vw;
+    display: block;
 }
 
 .materials-details{
-    margin-top: 8vw;
+    margin-top: 17vw;
     margin-bottom: 3rem;
 }
 
@@ -297,11 +309,18 @@ footer{
 
 /* responisiveness for mobile */
 
-/* brick-type section */
+
 @media screen and (max-width:424px) {
+    
+    /* brick-type section */
     
     #brick-type > .checkboxes-quantity{
         gap: 5vw;
-}
+    }
+    
+    /* materials section */
 
+    .checkboxes-quantity{
+        gap: 3vw;
+    }
 }
