@@ -112,7 +112,7 @@ h2{
 
 .checkboxes-quantity{
     display: flex;
-    gap: 2vw;
+    gap: 7vw;
     margin-bottom: 9vw;
 }
 
@@ -157,7 +157,7 @@ span:hover{
 }
 
 #hours-of-work > .next-button{
-    margin-bottom: 6vw;
+    margin-bottom: 14vw;
 }
 
 /* style of brick type section */
@@ -189,6 +189,10 @@ span:hover{
     margin-top: 2vw;
     text-align: center;
     font-weight: 600;
+}
+
+#hours-of-work > h2{
+    margin-bottom: 4vw;
 }
 
 /* style total cost section */
@@ -246,6 +250,7 @@ footer{
     color: rgb(0, 0, 0);
     font-weight: 600;
     text-align: center;
+    margin-top: 1rem;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
     background: rgb(255,255,255);
