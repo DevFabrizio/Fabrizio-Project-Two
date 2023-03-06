@@ -39,33 +39,63 @@ const totalCost = ''
 })
 
  // list of functions to shift through materials, bricks and hours of work
+
+function moveThroughSections(event){
+    let currentSection = document.querySelector("section:not([style*='display: none'])");
+    nextSection = currentSection.nextElementSibling;
+    if (nextSection !== null){
+        currentSection.style.display = 'none'
+        nextSection.style.display = 'flex';
+    }
+}
+
+let nextButton = document.getElementsByClassName('next-button')
+for (buttons of nextButton){
+    buttons.addEventListener('click', moveThroughSections)
+}
+ 
+//  function moveThroughSections(event){
+//      let currentSection = document.querySelector("section:not([style*= 'display:none'])");
+//      let nextSection = currentSection.nextElementSibling;
+//      if (!nextSection){
+//          nextSection = document.querySelector('section:first-child');
+//         }
+//         currentSection.style.display = 'none';
+//         nextSection.style.display = 'flex'
+//     }
+    
+// let nextButtons = document.querySelectorAll('.next-button');
+// nextButtons.forEach(nextButton => {
+//     nextButton.addEventListener('click', moveThroughSections)
+// })
+
      
-function brickPage(event){
+// function brickPage(event){
 
-    let materialsSection = document.getElementById('materials');
-    materialsSection.style.display = 'none';
-    let brickType = document.getElementById('brick-type');
-    brickType.style.display = 'flex';
+//     let materialsSection = document.getElementById('materials');
+//     materialsSection.style.display = 'none';
+//     let brickType = document.getElementById('brick-type');
+//     brickType.style.display = 'flex';
        
-}
+// }
 
-function hoursOfWorkPage(event){
+// function hoursOfWorkPage(event){
     
-    let brickType = document.getElementById('brick-type');
-    brickType.style.display = 'none';
-    let hoursOfWork = document.getElementById('hours-of-work');
-    hoursOfWork.style.display = 'flex';
+//     let brickType = document.getElementById('brick-type');
+//     brickType.style.display = 'none';
+//     let hoursOfWork = document.getElementById('hours-of-work');
+//     hoursOfWork.style.display = 'flex';
     
-}
+// }
 
-function totalCostList(event){
+// function totalCostList(event){
 
-    let hoursOfWork = document.getElementById('hours-of-work');
-    hoursOfWork.style.display = 'none';
-    document.getElementById('total-cost').style.display = 'flex';
-    document.getElementById('final-list').style.display = 'flex';
+//     let hoursOfWork = document.getElementById('hours-of-work');
+//     hoursOfWork.style.display = 'none';
+//     document.getElementById('total-cost').style.display = 'flex';
+//     document.getElementById('final-list').style.display = 'flex';
 
-}
+// }
 
 function backToMainPage(event){
 
@@ -75,14 +105,14 @@ function backToMainPage(event){
 
 }
 
-let nextButton = document.getElementsByClassName('next-button')[0];
-nextButton.addEventListener("click", brickPage);
+// let nextButton = document.getElementsByClassName('next-button')[0];
+// nextButton.addEventListener("click", brickPage);
 
-let nextButton1 = document.getElementsByClassName('next-button')[1];
-nextButton1.addEventListener('click', hoursOfWorkPage);
+// let nextButton1 = document.getElementsByClassName('next-button')[1];
+// nextButton1.addEventListener('click', hoursOfWorkPage);
 
-let nextButton2 = document.getElementsByClassName('next-button')[2];
-nextButton2.addEventListener('click', totalCostList);
+// let nextButton2 = document.getElementsByClassName('next-button')[2];
+// nextButton2.addEventListener('click', totalCostList);
 
 let mainPageButton = document.getElementById('back');
 mainPageButton.addEventListener('click', backToMainPage);

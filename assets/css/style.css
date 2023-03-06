@@ -366,3 +366,13 @@ footer{
         gap: 3vw;
     }
 }
+
+/* classes for JavaScript function that navigates through the sections */
+
+.active{
+    display: flex;
+}
+
+.inactive{
+    display: none;
+}
