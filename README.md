@@ -31,6 +31,7 @@ The reason behind this seemingly odd choice was dictated by the fact that in bot
 For the second type of possible audience for this website, the reasoning behind was that once retirement is near or already the present condition is not unusual to start contacting companies to work on house that has seen many years of use and tear. In this case the senior citizen could definitely make the most out of a simple and immediate platform to estimate the cost and scope of the renovation.
 ## User Story
 ## Interactions and Features
+For this part of the project I thought about different ways to keep the website easy to use. The main interactive features are click events and the acquisition of data input that the user provided. In order to progress easily through the different interactions I used a simple click event that allows the user to navigate the possible choices present.
 ### Feautures Used
 ### Future Features
 This project is meant to be able to evolve overtime and implement a wide range of options to generate a much complete quote of all the materials required to complete a renovation. One of the many features that could be added overtime is surely an improved list of materials. Obviously related to materials we have prices. The most useful upgrade that I think could be added is an average price for the materials updated daily from the catalogues of sector-leading companies. This would assure that the user would obtain a result which matches a true price that they could find in a regular supply store.
