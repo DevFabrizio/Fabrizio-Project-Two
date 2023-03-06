@@ -51,4 +51,4 @@ Among the various bugs I have encoutered the first was a mistake in targeting an
 ### Website Maintenance and Updates
 ## Credit
 The icons in this website have been taken from [Font Awesome](https://fontawesome.com/)
-The pictures have been taken from [FreePix](https://www.freepik.com/) and 
+The pictures have been taken from [FreePix](https://www.freepik.com/) and the gradient have been created with [CSS Gradient](https://cssgradient.io/)
