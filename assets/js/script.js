@@ -16,8 +16,6 @@ const concreteBricksQty = ''
 const hoursOfWorkInput = ''
 const totalCost = ''
 
-  
-
  document.addEventListener("DOMContentLoaded", function() {
 
     const infoIcon = document.getElementById("info-icon");
@@ -38,8 +36,7 @@ const totalCost = ''
       
 })
 
- // list of functions to shift through materials, bricks and hours of work
-
+ // function to shift through materials, bricks, hours of work and final list
 function moveThroughSections(event){
     let currentSection = document.querySelector("section:not([style*='display: none'])");
     nextSection = currentSection.nextElementSibling;
@@ -54,65 +51,14 @@ for (buttons of nextButton){
     buttons.addEventListener('click', moveThroughSections)
 }
  
-//  function moveThroughSections(event){
-//      let currentSection = document.querySelector("section:not([style*= 'display:none'])");
-//      let nextSection = currentSection.nextElementSibling;
-//      if (!nextSection){
-//          nextSection = document.querySelector('section:first-child');
-//         }
-//         currentSection.style.display = 'none';
-//         nextSection.style.display = 'flex'
-//     }
-    
-// let nextButtons = document.querySelectorAll('.next-button');
-// nextButtons.forEach(nextButton => {
-//     nextButton.addEventListener('click', moveThroughSections)
-// })
-
-     
-// function brickPage(event){
-
-//     let materialsSection = document.getElementById('materials');
-//     materialsSection.style.display = 'none';
-//     let brickType = document.getElementById('brick-type');
-//     brickType.style.display = 'flex';
-       
-// }
-
-// function hoursOfWorkPage(event){
-    
-//     let brickType = document.getElementById('brick-type');
-//     brickType.style.display = 'none';
-//     let hoursOfWork = document.getElementById('hours-of-work');
-//     hoursOfWork.style.display = 'flex';
-    
-// }
-
-// function totalCostList(event){
-
-//     let hoursOfWork = document.getElementById('hours-of-work');
-//     hoursOfWork.style.display = 'none';
-//     document.getElementById('total-cost').style.display = 'flex';
-//     document.getElementById('final-list').style.display = 'flex';
-
-// }
+// function to return to the materials page
 
 function backToMainPage(event){
 
     document.getElementById('total-cost').style.display = 'none';
-    document.getElementById('final-list').style.display = 'none';
     document.getElementById('materials').style.display = 'flex';
 
 }
-
-// let nextButton = document.getElementsByClassName('next-button')[0];
-// nextButton.addEventListener("click", brickPage);
-
-// let nextButton1 = document.getElementsByClassName('next-button')[1];
-// nextButton1.addEventListener('click', hoursOfWorkPage);
-
-// let nextButton2 = document.getElementsByClassName('next-button')[2];
-// nextButton2.addEventListener('click', totalCostList);
 
 let mainPageButton = document.getElementById('back');
 mainPageButton.addEventListener('click', backToMainPage);
