@@ -35,7 +35,7 @@
             <div id="checkboxes-container">
                 <div id="mortar-box">
                     <label for="mortar">Mortar</label>
-                    <input type="checkbox" name="mortar" id="mortar" required>
+                    <input type="checkbox" name="mortar" id="mortar" onclick="checkTheBox()" required>
                 </div>
                 <div id="sand-box">
                     <label for="sand">Sand</label>
@@ -64,6 +64,10 @@
             <!-- div used as a button to move through the sections -->
             <div class="next-button">
                 <p>Next</p>
+            </div>
+            <!-- div to submit the info provided by the user -->
+            <div class="submit">
+                <p>Submit</p>
             </div>
             <!-- section with brief explaination of the materials -->
             <div class="materials-details"> 
@@ -148,11 +152,11 @@
         <section id="total-cost">
             <h3>total cost</h3>
             <p>0</p>
-            <!-- <div class="next-button">
-                <p>Next</p>
-            </div> -->
+            
             <!-- final list of all the items and quantities chosen by the user -->
-        <!-- <section id="final-list"> -->
+
+            <!-- <section id="final-list"> -->
+                
             <h4>list of materials</h4>
             <ul></ul>
             <!-- div used as a button to move back to the materials section of the website -->

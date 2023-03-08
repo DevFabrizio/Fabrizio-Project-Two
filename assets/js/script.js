@@ -22,9 +22,9 @@ const totalCost = ''
     const mortarInput = document.getElementById("mortar");
     const sandInput = document.getElementById("sand");
     const cementInput = document.getElementById("cement");
-    const mortarQty = document.getElementById("mortar-qty");
-    const sandQty = document.getElementById("sand-qty");
-    const cementQty = document.getElementById("cement-qty");
+    const mortarQty = document.getElementById("mortar-quantity");
+    const sandQty = document.getElementById("sand-quantity");
+    const cementQty = document.getElementById("cement-quantity");
     const redBricksInput = document.getElementById("red-bricks");
     const stoneBricksInput = document.getElementById("stone-bricks");
     const concreteBricksInput = document.getElementById("concrete-bricks");
@@ -83,4 +83,32 @@ infoBox.addEventListener('click', information);
 
 
 // functions to run the quote generator
+
+// let listItem = document.createElement('li');
+// listItem.textContent = mortarQty.
+// document.querySelector('ul').appendChild(listItem)
+
+// const mortarQty = document.getElementById('mortarQty');
+// const list = document.getElementById('list');
+
+// function addToList() {
+//   let num1 = mortarQty.valueAsNumber;
+//   let li = document.createElement('li');
+//   li.textContent = num1;
+//   list.appendChild(li);
+// }
+// mortarQty = document.getElementById('mortar-quantity');
+// mortarQty.addEventListener('input', addToList);
+
+function displayNumber(event){
+    let number = document.getElementById('mortar-quantity').value;
+    let listItem = document.createElement('li');
+    listItem.innerHTML = number + 'kg of mortar';
+    let ul = document.getElementsByTagName('ul')[0];
+    ul.appendChild(listItem);
+    
+}
+let number = document.getElementById('mortar-quantity');
+number.addEventListener('keyup', displayNumber);
+
 // function to insert data into the list of items
