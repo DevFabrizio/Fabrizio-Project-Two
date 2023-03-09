@@ -16,6 +16,8 @@ const concreteBricksQty = ''
 const hoursOfWorkInput = ''
 const totalCost = ''
 
+// function to give the proper values to the empty variables above 
+
  document.addEventListener("DOMContentLoaded", function() {
 
     const infoIcon = document.getElementById("info-icon");
@@ -81,18 +83,19 @@ function information(event){
 let infoBox = document.getElementById('info-icon');
 infoBox.addEventListener('click', information);
 
-// functions to run the quote generator
+
 
 // function to insert data into the list of items
 
-let mortar = document.getElementById('mortar-quantity').value;
-let sand = document.getElementById('sand-quantity').value;
-let cement = document.getElementById('cement-quantity').value;
-let redBricks = document.getElementById('red-bricks-quantity').value;
-let stoneBricks = document.getElementById('stone-bricks-quantity').value;
-let concreteBricks = document.getElementById('concrete-bricks-quantity').value;
 
 function displayNumber(event){
+    let mortar = document.getElementById('mortar-quantity').value;
+    let sand = document.getElementById('sand-quantity').value;
+    let cement = document.getElementById('cement-quantity').value;
+    let redBricks = document.getElementById('red-bricks-quantity').value;
+    let stoneBricks = document.getElementById('stone-bricks-quantity').value;
+    let concreteBricks = document.getElementById('concrete-bricks-quantity').value;
+    let price = document.getElementById('price');
     
     let listItem = `<li>${mortar} kg of mortar</li>
                     <li>${sand} kg of sand</li>
@@ -100,8 +103,16 @@ function displayNumber(event){
                     <li>${redBricks}</li>
                     <li>${stoneBricks}</li>
                     <li>${concreteBricks}</li>`;
-
+    
+    // functions to run the quote generator
     let ul = document.getElementsByTagName('ul')[0];
+    price.textContent = mortar * 0.70 +
+                        sand * 0.10 +
+                        cement * 0.80 +
+                        redBricks * 1 +
+                        stoneBricks * 1.50 +
+                        concreteBricks * 0.90 + ' euros';
+
     ul.innerHTML = listItem;
     
 }
