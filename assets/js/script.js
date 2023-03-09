@@ -81,34 +81,29 @@ function information(event){
 let infoBox = document.getElementById('info-icon');
 infoBox.addEventListener('click', information);
 
-
 // functions to run the quote generator
 
-// let listItem = document.createElement('li');
-// listItem.textContent = mortarQty.
-// document.querySelector('ul').appendChild(listItem)
+// function to insert data into the list of items
 
-// const mortarQty = document.getElementById('mortarQty');
-// const list = document.getElementById('list');
-
-// function addToList() {
-//   let num1 = mortarQty.valueAsNumber;
-//   let li = document.createElement('li');
-//   li.textContent = num1;
-//   list.appendChild(li);
-// }
-// mortarQty = document.getElementById('mortar-quantity');
-// mortarQty.addEventListener('input', addToList);
+let mortar = document.getElementById('mortar-quantity').value;
+let sand = document.getElementById('sand-quantity').value;
+let cement = document.getElementById('cement-quantity').value;
+let redBricks = document.getElementById('red-bricks-quantity').value;
+let stoneBricks = document.getElementById('stone-bricks-quantity').value;
+let concreteBricks = document.getElementById('concrete-bricks-quantity').value;
 
 function displayNumber(event){
-    let number = document.getElementById('mortar-quantity').value;
-    let listItem = document.createElement('li');
-    listItem.innerHTML = number + 'kg of mortar';
+    
+    let listItem = `<li>${mortar} kg of mortar</li>
+                    <li>${sand} kg of sand</li>
+                    <li>${cement} kg of cement</li>
+                    <li>${redBricks}</li>
+                    <li>${stoneBricks}</li>
+                    <li>${concreteBricks}</li>`;
+
     let ul = document.getElementsByTagName('ul')[0];
-    ul.appendChild(listItem);
+    ul.innerHTML = listItem;
     
 }
-let number = document.getElementById('mortar-quantity');
-number.addEventListener('keyup', displayNumber);
-
-// function to insert data into the list of items
+let submitButton = document.getElementsByClassName('submit')[0];
+submitButton.addEventListener('click', displayNumber);

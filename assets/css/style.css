@@ -151,6 +151,8 @@ span:hover{
     box-shadow: 2px 2px 3px black;
 }
 
+/* style for the "next" button common to the first three sections (last section has a "Go Back" text in a div with another ID) */
+
 .next-button{
     width: 3rem;
     height: 1.6rem;
@@ -168,10 +170,6 @@ span:hover{
 
 .next-button > p{
     font-weight: 600;
-}
-
-#hours-of-work > .next-button{
-    margin-bottom: 14vw;
 }
 
 /* style of brick type section */
@@ -217,6 +215,34 @@ span:hover{
     margin-bottom: 4vw;
 }
 
+#hours-of-work > .next-button{
+    margin-bottom: 14vw;
+}
+
+.buttons-container{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 17vw;
+}
+
+.submit{
+    width: 4rem;
+    height: 1.6rem;
+    background-color:  rgba(200, 200, 200, 0.7);
+    text-align: center;
+    line-height: 133%;
+    border: 3px solid black;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+
+.submit:hover{
+    box-shadow: 3px 3px 3px rgb(20, 19, 19);
+}
+
+.submit > p{
+    font-weight: 600;
+}
 /* style total cost section */
 
 #total-cost{

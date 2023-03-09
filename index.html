@@ -61,26 +61,22 @@
                     <input type="number" name="cement-quantity" id="cement-quantity" required>
                 </div>
             </div>
-            <!-- div used as a button to move through the sections -->
+            <!-- div containing the button to navigate through the sections -->
             <div class="next-button">
                 <p>Next</p>
-            </div>
-            <!-- div to submit the info provided by the user -->
-            <div class="submit">
-                <p>Submit</p>
             </div>
             <!-- section with brief explaination of the materials -->
             <div class="materials-details"> 
                 <div class="materials-explained">
-                    <span><strong>Mortar</strong></span>
+                    <span><strong>Mortar: 30 cents/kg</strong></span>
                     <p>Mortar is one of the classics when it comes to structural integrity of a layered brick system. It has been a staple for excellent reasons. It is relatively cheap, dries fast and is impervious to inclimate weather for long periods of time. You should use it if your project is outdoor and is meant to endure the test of time. Fiber glass can be added for additional. strength</p>
                 </div>
                 <div class="materials-explained">
-                    <span><strong>Sand</strong></span>
+                    <span><strong>Sand: 10 cents/kg</strong></span>
                     <p>When it comes to pavement bricks, one of the best solutions is sand. Often used to fill the gaps between bricks when restructuring a driveway, sand is also very useful as a bottom layer to settle your bricks for every project that will not expand in height. Sand should be your choice if you want a less costly solution but still want to obtain an appealing final result</p>
                 </div>
                 <div class="materials-explained">
-                    <span><strong>Cement</strong></span>
+                    <span><strong>Cement: 80 cents/kg</strong></span>
                     <p>Cement has the reputation as one of the greatest binders out there. It is great for many different applications but it surely shines when applied to indoor projects. Although the average cost is higher compared to other solutions it is probably the strongest availble. This material should be your choice is you plan to renovate any indoor wall or create a new section of your house altogether.</p>
                 </div>
             </div>
@@ -113,9 +109,9 @@
                     <label for="stone-bricks-quantity">Qty (kg)</label>
                     <input type="number" name="stone-bricks-quantity" id="stone-bricks-quantity" required>
                 </div>
-                <div id="recycled-bricks-qty">
-                    <label for="recycled-bricks-quantity">Qty (kg)</label>
-                    <input type="number" name="recycled-bricks-quantity" id="recycled-bricks-quantity" required>
+                <div id="concrete-bricks-qty">
+                    <label for="concrete-bricks-quantity">Qty (kg)</label>
+                    <input type="number" name="concrete-bricks-quantity" id="concrete-bricks-quantity" required>
                 </div>
             </div>
             <!-- button to move through the sections (action enabled by JS) -->
@@ -125,15 +121,15 @@
             <!-- section with explaination of the type of brick chosen -->
             <div class="materials-details">
                 <div class="materials-explained">
-                    <span><strong>Red bricks</strong></span>
+                    <span><strong>Red bricks: 1 euro/kg</strong></span>
                     <p>Red bricks have been present in almost every modern and conteporary construction since the industrial revolution allowed us to manifacture them in huge quantity. Lately they have been surpassed by more modern and cheaper material but they still find a valid place in today's designs nonetheless. Great as insulators, they are the preferred choice when it comes to external walls and little side projects as in an outdoor brick oven or a classic barbeque.</p>
                 </div>
                 <div class="materials-explained">
-                    <span><strong>Stone bricks</strong></span>
+                    <span><strong>Stone bricks: 1.50 euro/kg</strong></span>
                     <p>When considering a decorative solution, stone is surely one of the most visually appealing materials. It is mandatory though to pay particular attention at the type of environment the you are going to place the stone in. Some of the minerals respond differently to different conditions and temperatures. Stone is best suited for decorations or small parts of your renovation projects, although some types of stone can definitely be applied for external prolonged use through the years.</p>
                     </div>
                     <div class="materials-explained">
-                        <span><strong>Cement bricks</strong></span>
+                        <span><strong>Cement bricks: 90 cents/kg</strong></span>
                         <p>These type of bricks are by far the strongest and most reliable on the market. They are relatively cheap and allow you to bring your design to life and have stand the test of time. These type of bricks give you the freedom to apply a generous amount of different coatings and are usually set up to create dividers or structuring walls. The best use for these is to place them there where you know you are going to use coatings and provide a smooth and uniform finish to them. This way you will get all the pros of their solidity and non of the cons of their exterior appearance.</p>
                     </div>
                 </div>
@@ -144,19 +140,21 @@
             <input type="number" name="total-hours" id="total-hours">
             <p>When accounting for hours of work there are plenty of variables to consider. As a general rule of thumb always assume that the project is gonna require you more time than planned. In this context it is wise to allocate at least 30% more time to every phase of the process. Some of the unpredictable factors to keep in mind are: weather, late deliveries, faulty equipment, injuries, human errors and so on. The main point to take away from this is that is highly unlikely that you'll be able to stick to a tight schedule, so always keep your time-line and approach to rate of progress flexible enough to allow for corrections along the way. </p>
             <!-- div used as a button to toggle thorugh the sections -->
-            <div class="next-button">
-                <p>Next</p>
+            <div class="buttons-container"> 
+                <div class="submit">
+                    <p>Submit</p>
+                </div>
+                <div class="next-button">
+                    <p>Next</p>
+                </div>
             </div>
+           
         </section>
         <!-- total cost section that will display the final cost with JS -->
         <section id="total-cost">
             <h3>total cost</h3>
-            <p>0</p>
-            
-            <!-- final list of all the items and quantities chosen by the user -->
-
-            <!-- <section id="final-list"> -->
-                
+            <p id="price">0</p>
+            <!-- final list of all the items and quantities chosen by the user -->                
             <h4>list of materials</h4>
             <ul></ul>
             <!-- div used as a button to move back to the materials section of the website -->
