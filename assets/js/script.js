@@ -1,24 +1,24 @@
 // variables ready to be defined after content loading
 
-const infoIcon = ''
-const mortarInput = '' 
-const sandInput = ''
-const cementInput = '' 
-const mortarQty = ''
-const sandQty = ''
-const cementQty = '' 
-const redBricksInput = ''
-const stoneBricksInput = ''
-const concreteBricksInput = ''
-const redBricksQty = ''
-const stoneBricksQty = ''
-const concreteBricksQty = ''
-const hoursOfWorkInput = ''
-const totalCost = ''
+const infoIcon = '';
+const mortarInput = ''; 
+const sandInput = '';
+const cementInput = ''; 
+const mortarQty = '';
+const sandQty = '';
+const cementQty = ''; 
+const redBricksInput = '';
+const stoneBricksInput = '';
+const concreteBricksInput = '';
+const redBricksQty = '';
+const stoneBricksQty = '';
+const concreteBricksQty = '';
+const hoursOfWorkInput = '';
+const totalCost = '';
 
 // function to give the proper values to the empty variables above 
 
- document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
 
     const infoIcon = document.getElementById("info-icon");
     const mortarInput = document.getElementById("mortar");
@@ -35,53 +35,52 @@ const totalCost = ''
     const concreteBricksQty = document.getElementById("concrete-bricks-quantity") ;
     const hoursOfWorkInput = document.getElementById("hours-of-work");
     const totalCost = document.getElementById("total-cost");
-      
-})
+});
 
  // function to shift through materials, bricks, hours of work and final list
-function moveThroughSections(event){
+function moveThroughSections(event) {
+    
     let currentSection = document.querySelector("section:not([style*='display: none'])");
-    nextSection = currentSection.nextElementSibling;
+    let nextSection = currentSection.nextElementSibling;
     if (nextSection !== null){
-        currentSection.style.display = 'none'
+        currentSection.style.display = 'none';
         nextSection.style.display = 'flex';
     }
 }
 
-let nextButton = document.getElementsByClassName('next-button')
-for (buttons of nextButton){
-    buttons.addEventListener('click', moveThroughSections)
+let nextButton = document.getElementsByClassName ('next-button');
+for (let buttons of nextButton) {
+    buttons.addEventListener ('click', moveThroughSections);
 }
 
 // function to display the alert that the data from the user has been input correctly
 
-let submitForm = document.getElementById('user-info');
-function userDataAlert(event){
-    event.preventDefault();
-    alert('The form has been submitted succesfully!');
-    
+let submitForm = document.getElementById ('user-info');
+function userDataAlert(event) {
+    event.preventDefault ();
+    alert ('The form has been submitted succesfully!');
     
 }
 
-submitForm.addEventListener('submit', userDataAlert)
+submitForm.addEventListener ('submit', userDataAlert);
  
 // function to return to the materials page
 
-function backToMainPage(event){
+function backToMainPage (event) {
 
     document.getElementById('total-cost').style.display = 'none';
     document.getElementById('form').style.display = 'flex';
 
 }
 
-let mainPageButton = document.getElementById('back');
-mainPageButton.addEventListener('click', backToMainPage);
+let mainPageButton = document.getElementById ('back');
+mainPageButton.addEventListener ('click', backToMainPage);
 
 // function to show the website instructions on all sections
 
-function information(event){
+function information (event) {
     let bgImage = document.getElementById('interactive-section-bg');
-    let bricksBgImage = document.getElementById('interactive-section-bg-brick')
+    let bricksBgImage = document.getElementById('interactive-section-bg-brick');
     let infoBox = document.getElementById('info-box');
     if (infoBox.style.display === 'none'){
         infoBox.style.display = 'flex';
@@ -98,13 +97,9 @@ function information(event){
 let infoBox = document.getElementById('info-icon');
 infoBox.addEventListener('click', information);
 
-
-
 // function to insert data into the list of items
 
-
 function displayNumber(event){
-    
     
     let mortar = document.getElementById('mortar-quantity').value;
     let sand = document.getElementById('sand-quantity').value;
@@ -114,7 +109,7 @@ function displayNumber(event){
     let concreteBricks = document.getElementById('concrete-bricks-quantity').value;
     let hoursOfWork = document.getElementById('total-hours').value;
     let price = document.getElementById('price');
-    let inputArray = [mortar, sand, cement, redBricks, stoneBricks, concreteBricks];  
+    // let inputArray = [mortar, sand, cement, redBricks, stoneBricks, concreteBricks];  
           
             let listItem = `<li>${mortar} kg of mortar</li>
             <li>${sand} kg of sand</li>
@@ -139,9 +134,6 @@ function displayNumber(event){
             
             ul.innerHTML = listItem;
             
-    
-        
-   
 }
 
 let submitButton = document.getElementsByClassName('submit')[0];

@@ -1,4 +1,5 @@
 /* Google Fonts link */
+
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
 /* universal rule for font and for margin, padding and box-sizing */
@@ -60,7 +61,6 @@ body{
 
 #info-box > h5{
     text-transform: capitalize;
-    margin-bottom: vw;
     margin-top: 2vw;
     font-size: larger;
 }
@@ -103,6 +103,10 @@ form > input{
 form > input:hover{
     border: 4px solid black;
     box-shadow: 3px 3px 3px grey;
+}
+
+#form > h4{
+    font-size: larger;
 }
 
 /* style of the materials section */
@@ -170,7 +174,6 @@ h2{
     border: 3px solid firebrick;
     border-radius: 9px;
     background: linear-gradient(180deg, rgb(255, 255, 255) 27%, rgb(207, 54, 12) 100%);
-
 }
 
 span{
@@ -288,6 +291,7 @@ span:hover{
 .submit > p{
     font-weight: 600;
 }
+
 /* style total cost section */
 
 #total-cost{
@@ -304,6 +308,7 @@ span:hover{
 #total-cost p{
     padding: 1em;
 }
+
 /* style final list section */
 
 #final-list{
@@ -355,7 +360,6 @@ footer{
 
 /* responsiveness for tablet */
 
-
 @media screen and (min-width: 425px) {
     
     /* materials section */
@@ -386,7 +390,6 @@ footer{
 
 /* responsiveness for laptop */
 
-
 @media screen and (min-width:768px) {
     
     /* materials section */
@@ -415,7 +418,6 @@ footer{
         margin-bottom: 8vw;
     }
 
-
     /* brick-type section */
 
     #brick-type > .materials-details{
@@ -424,7 +426,6 @@ footer{
 }
 
 /* responisiveness for mobile */
-
 
 @media screen and (max-width:424px) {
     
