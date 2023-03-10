@@ -30,12 +30,13 @@
         </header>
         <!-- form for submission of user info -->
         <section id="form">
-            <form action="https://formdump.codeinstitute.net/" method="post">
+            <form action="https://formdump.codeinstitute.net/" method="post" id="user-info">
                 <input type="text" name="fname" id="fname" placeholder="Your first name" required>
                 <input type="text" name="lname" id="lname" placeholder="Your last name" required>
                 <input type="email" name="email" id="email" placeholder="Your email address" required>
                 <input type="submit" value="Submit" id="form-submit">
             </form>
+            <!-- button to move through the sections (action enabled by JS) -->
             <div class="next-button">
                 <p>Next</p>
             </div>
@@ -47,7 +48,7 @@
             <div id="checkboxes-container">
                 <div id="mortar-box">
                     <label for="mortar">Mortar</label>
-                    <input type="checkbox" name="mortar" id="mortar" onclick="checkTheBox()" required>
+                    <input type="checkbox" name="mortar" id="mortar" required>
                 </div>
                 <div id="sand-box">
                     <label for="sand">Sand</label>
@@ -73,7 +74,7 @@
                     <input type="number" name="cement-quantity" id="cement-quantity" required>
                 </div>
             </div>
-            <!-- div containing the button to navigate through the sections -->
+            <!-- button to move through the sections (action enabled by JS) -->
             <div class="next-button">
                 <p>Next</p>
             </div>
@@ -95,8 +96,8 @@
         </section>
         <!-- section with interactive input for the user to choose from -->
         <section id="brick-type">
-            <img src="assets/img/interactive-section-bg.webp" alt="a picture of a clipboard on a desk with some contruction tools" id="interactive-section-bg">
             <h2>brick type</h2>
+            <img src="assets/img/interactive-section-bg.webp" alt="a picture of a clipboard on a desk with some contruction tools" id="interactive-section-bg-brick">
             <div id="brick-type-container">
                 <div id="red-bricks-box"> 
                     <label for="Red bricks">Red bricks</label>
@@ -111,8 +112,8 @@
                     <input type="checkbox" name="Concrete brick" id="Concrete brick" required>
                 </div>
             </div>
-            <!-- section with quantity for the type of brick chosen by the user -->
-            <div class="checkboxes-quantity">
+                <!-- section with quantity for the type of brick chosen by the user -->
+                <div class="checkboxes-quantity">
                 <div id="red-bricks-qty">
                     <label for="red-bricks-quantity">Qty (kg)</label>
                     <input type="number" name="red-bricks-quantity" id="red-bricks-quantity" required>
@@ -156,6 +157,7 @@
                 <div class="submit">
                     <p>Submit</p>
                 </div>
+                <!-- button to move through the sections (action enabled by JS) -->
                 <div class="next-button">
                     <p>Next</p>
                 </div>

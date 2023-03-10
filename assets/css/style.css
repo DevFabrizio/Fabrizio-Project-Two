@@ -227,6 +227,16 @@ span:hover{
     margin-left: 8vw;
 }
 
+#interactive-section-bg-brick{
+    width: 92%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    border-radius: 15px;
+    top: 33vw;
+    display: block;
+}
+
 #brick-type > img{
     top: 37vw;
 }
@@ -306,6 +316,8 @@ span:hover{
     text-transform: capitalize;
     font-size: larger;
 }
+
+/* style of the back button */
 
 #back{
     width: 5rem;
@@ -429,12 +441,3 @@ footer{
     }
 }
 
-/* classes for JavaScript function that navigates through the sections */
-
-.active{
-    display: flex;
-}
-
-.inactive{
-    display: none;
-}

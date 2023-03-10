@@ -52,6 +52,18 @@ let nextButton = document.getElementsByClassName('next-button')
 for (buttons of nextButton){
     buttons.addEventListener('click', moveThroughSections)
 }
+
+// function to display the alert that the data from the user has been input correctly
+
+let submitForm = document.getElementById('user-info');
+function userDataAlert(event){
+    event.preventDefault();
+    alert('The form has been submitted succesfully!');
+    
+    
+}
+
+submitForm.addEventListener('submit', userDataAlert)
  
 // function to return to the materials page
 
@@ -69,13 +81,16 @@ mainPageButton.addEventListener('click', backToMainPage);
 
 function information(event){
     let bgImage = document.getElementById('interactive-section-bg');
+    let bricksBgImage = document.getElementById('interactive-section-bg-brick')
     let infoBox = document.getElementById('info-box');
     if (infoBox.style.display === 'none'){
         infoBox.style.display = 'flex';
-        bgImage.style.display = 'none'
+        bgImage.style.display = 'none';
+        bricksBgImage.style.display = 'none';
     }else{
-        infoBox.style.display = 'none'
-        bgImage.style.display = 'block'
+        infoBox.style.display = 'none';
+        bgImage.style.display = 'block';
+        bricksBgImage.style.display = 'block';
     }
 
 }
