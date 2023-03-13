@@ -20,7 +20,7 @@ body{
 /* background style and layout */
 
 #main-bg{
-    width: 1500px;
+    width: 1950px;
     height: 1300px;
     position: fixed;
     opacity: 0.5;
@@ -106,7 +106,7 @@ form > input:hover{
 }
 
 #form > h4{
-    font-size: larger;
+    font-size: 5vw;
 }
 
 /* style of the materials section */
@@ -254,9 +254,12 @@ span:hover{
 
 #hours-of-work > p{
     padding: 1em;
-    margin-top: 2vw;
+    margin: 2vw;
     text-align: center;
     font-weight: 600;
+    border: 5px solid grey;
+    border-radius: 10px ;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 #hours-of-work > h2{
@@ -309,15 +312,7 @@ span:hover{
     padding: 1em;
 }
 
-/* style final list section */
-
-#final-list{
-    display: none;
-    flex-direction: column;
-    align-items: center;
-}
-
-#final-list h4{
+#total-cost h4{
     text-transform: capitalize;
     font-size: larger;
 }

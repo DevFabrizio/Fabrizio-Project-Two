@@ -1,41 +1,41 @@
 // variables ready to be defined after content loading
 
-const infoIcon = '';
-const mortarInput = ''; 
-const sandInput = '';
-const cementInput = ''; 
-const mortarQty = '';
-const sandQty = '';
-const cementQty = ''; 
-const redBricksInput = '';
-const stoneBricksInput = '';
-const concreteBricksInput = '';
-const redBricksQty = '';
-const stoneBricksQty = '';
-const concreteBricksQty = '';
-const hoursOfWorkInput = '';
-const totalCost = '';
+// const infoIcon = '';
+// const mortarInput = ''; 
+// const sandInput = '';
+// const cementInput = ''; 
+// const mortarQty = '';
+// const sandQty = '';
+// const cementQty = ''; 
+// const redBricksInput = '';
+// const stoneBricksInput = '';
+// const concreteBricksInput = '';
+// const redBricksQty = '';
+// const stoneBricksQty = '';
+// const concreteBricksQty = '';
+// const hoursOfWorkInput = '';
+// const totalCost = '';
 
-// function to give the proper values to the empty variables above 
+// // function to give the proper values to the empty variables above 
 
-document.addEventListener("DOMContentLoaded", function () {
+// document.addEventListener("DOMContentLoaded", function () {
 
-    const infoIcon = document.getElementById("info-icon");
-    const mortarInput = document.getElementById("mortar");
-    const sandInput = document.getElementById("sand");
-    const cementInput = document.getElementById("cement");
-    const mortarQty = document.getElementById("mortar-quantity");
-    const sandQty = document.getElementById("sand-quantity");
-    const cementQty = document.getElementById("cement-quantity");
-    const redBricksInput = document.getElementById("red-bricks");
-    const stoneBricksInput = document.getElementById("stone-bricks");
-    const concreteBricksInput = document.getElementById("concrete-bricks");
-    const redBricksQty = document.getElementById("red-bricks-quantity");
-    const stoneBricksQty = document.getElementById("stone-bricks-quantity") ;
-    const concreteBricksQty = document.getElementById("concrete-bricks-quantity") ;
-    const hoursOfWorkInput = document.getElementById("hours-of-work");
-    const totalCost = document.getElementById("total-cost");
-});
+//     const infoIcon = document.getElementById("info-icon");
+//     const mortarInput = document.getElementById("mortar");
+//     const sandInput = document.getElementById("sand");
+//     const cementInput = document.getElementById("cement");
+//     const mortarQty = document.getElementById("mortar-quantity");
+//     const sandQty = document.getElementById("sand-quantity");
+//     const cementQty = document.getElementById("cement-quantity");
+//     const redBricksInput = document.getElementById("red-bricks");
+//     const stoneBricksInput = document.getElementById("stone-bricks");
+//     const concreteBricksInput = document.getElementById("concrete-bricks");
+//     const redBricksQty = document.getElementById("red-bricks-quantity");
+//     const stoneBricksQty = document.getElementById("stone-bricks-quantity") ;
+//     const concreteBricksQty = document.getElementById("concrete-bricks-quantity") ;
+//     const hoursOfWorkInput = document.getElementById("hours-of-work");
+//     const totalCost = document.getElementById("total-cost");
+// });
 
  // function to shift through materials, bricks, hours of work and final list
 function moveThroughSections(event) {
@@ -109,20 +109,23 @@ function displayNumber(event){
     let concreteBricks = document.getElementById('concrete-bricks-quantity').value;
     let hoursOfWork = document.getElementById('total-hours').value;
     let price = document.getElementById('price');
-    // let inputArray = [mortar, sand, cement, redBricks, stoneBricks, concreteBricks];  
-          
-            let listItem = `<li>${mortar} kg of mortar</li>
-            <li>${sand} kg of sand</li>
-            <li>${cement} kg of cement</li>
-            <li>${redBricks} kg of red bricks</li>
-            <li>${stoneBricks} kg of stone bricks</li>
-            <li>${concreteBricks} kg of concrete bricks</li>
-            <li>${hoursOfWork} hours of work</li>`;
-            
-            // retrieve the ul element from the DOM
-            
-            let ul = document.getElementsByTagName('ul')[0];
-            
+    let inputArray = [mortar, sand, cement, redBricks, stoneBricks, concreteBricks]; 
+
+        let listItem = `<li>${mortar} kg of mortar</li>
+        <li>${sand} kg of sand</li>
+        <li>${cement} kg of cement</li>
+        <li>${redBricks} kg of red bricks</li>
+        <li>${stoneBricks} kg of stone bricks</li>
+        <li>${concreteBricks} kg of concrete bricks</li>
+        <li>${hoursOfWork} hours of work</li>`;
+
+        
+        
+        // retrieve the ul element from the DOM
+        
+        let ul = document.getElementsByTagName('ul')[0];
+        ul.innerHTML = listItem;
+        
             // insert the value provided by the user multiplied by their price to generate final price
             
             price.textContent = mortar * 0.70 +
@@ -132,9 +135,10 @@ function displayNumber(event){
             stoneBricks * 1.50 +
             concreteBricks * 0.90 + ' euros';
             
-            ul.innerHTML = listItem;
             
-}
-
-let submitButton = document.getElementsByClassName('submit')[0];
-submitButton.addEventListener('click', displayNumber);
+        }
+        
+        let submitButton = document.getElementsByClassName('submit')[0];
+        submitButton.addEventListener('click', displayNumber);
+        
+        // scrivi se il form deve essere submit e cancella eventuali errori prima di git push per final review PP2
