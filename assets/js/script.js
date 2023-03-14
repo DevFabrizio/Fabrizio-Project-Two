@@ -141,4 +141,5 @@ function displayNumber(event){
         let submitButton = document.getElementsByClassName('submit')[0];
         submitButton.addEventListener('click', displayNumber);
         
-        // scrivi se il form deve essere submit e cancella eventuali errori prima di git push per final review PP2
+        
+        
