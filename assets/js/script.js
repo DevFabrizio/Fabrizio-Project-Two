@@ -61,6 +61,7 @@ let submitForm = document.getElementById ('user-info');
 function userDataAlert(event) {
     event.preventDefault ();
     alert ('The form has been submitted succesfully!');
+    moveThroughSections()
     
 }
 
