@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 // variables ready to be defined after content loading
 
 const infoIcon = '';
