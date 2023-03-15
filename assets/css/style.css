@@ -217,6 +217,25 @@ span:hover{
     font-weight: 600;
 }
 
+.previous-page{
+    width: 3rem;
+    height: 1.6rem;
+    background-color:  rgba(200, 200, 200, 0.7);
+    text-align: center;
+    line-height: 133%;
+    border: 3px solid black;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+
+.previous-page:hover{
+    box-shadow: 3px 3px 3px rgb(20, 19, 19);
+}
+
+.previous-page > p{
+    font-weight: 600;
+}
+
 /* style of brick type section */
 
 #brick-type{

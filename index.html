@@ -76,6 +76,9 @@
             <div class="next-button">
                 <p>Next</p>
             </div>
+            <div class="previous-page">
+                <p>Back</p>
+            </div>
             <!-- section with brief explaination of the materials -->
             <div class="materials-details"> 
                 <div class="materials-explained">
@@ -109,25 +112,28 @@
             </div>
                 <!-- section with quantity for the type of brick chosen by the user -->
                 <div class="checkboxes-quantity">
-                <div id="red-bricks-qty">
-                    <label for="red-bricks-quantity">Qty (kg)</label>
-                    <input type="number" name="red-bricks-quantity" id="red-bricks-quantity" required>
+                    <div id="red-bricks-qty">
+                        <label for="red-bricks-quantity">Qty (kg)</label>
+                        <input type="number" name="red-bricks-quantity" id="red-bricks-quantity" required>
+                    </div>
+                    <div id="stone-bricks-qty">
+                        <label for="stone-bricks-quantity">Qty (kg)</label>
+                        <input type="number" name="stone-bricks-quantity" id="stone-bricks-quantity" required>
+                    </div>
+                    <div id="concrete-bricks-qty">
+                        <label for="concrete-bricks-quantity">Qty (kg)</label>
+                        <input type="number" name="concrete-bricks-quantity" id="concrete-bricks-quantity" required>
+                    </div>
                 </div>
-                <div id="stone-bricks-qty">
-                    <label for="stone-bricks-quantity">Qty (kg)</label>
-                    <input type="number" name="stone-bricks-quantity" id="stone-bricks-quantity" required>
+                <!-- button to move through the sections (action enabled by JS) -->
+                <div class="next-button">
+                    <p>Next</p>
                 </div>
-                <div id="concrete-bricks-qty">
-                    <label for="concrete-bricks-quantity">Qty (kg)</label>
-                    <input type="number" name="concrete-bricks-quantity" id="concrete-bricks-quantity" required>
+                <div class="previous-page">
+                    <p>Back</p>
                 </div>
-            </div>
-            <!-- button to move through the sections (action enabled by JS) -->
-            <div class="next-button">
-                <p>Next</p>
-            </div>
-            <!-- section with explaination of the type of brick chosen -->
-            <div class="materials-details">
+                <!-- section with explaination of the type of brick chosen -->
+                <div class="materials-details">
                 <div class="materials-explained">
                     <span><strong>Red bricks: 1 euro/kg</strong></span>
                     <p>Red bricks have been present in almost every modern and conteporary construction since the industrial revolution allowed us to manifacture them in huge quantity. Lately they have been surpassed by more modern and cheaper material but they still find a valid place in today's designs nonetheless. Great as insulators, they are the preferred choice when it comes to external walls and little side projects as in an outdoor brick oven or a classic barbeque.</p>
@@ -135,14 +141,14 @@
                 <div class="materials-explained">
                     <span><strong>Stone bricks: 1.50 euro/kg</strong></span>
                     <p>When considering a decorative solution, stone is surely one of the most visually appealing materials. It is mandatory though to pay particular attention at the type of environment the you are going to place the stone in. Some of the minerals respond differently to different conditions and temperatures. Stone is best suited for decorations or small parts of your renovation projects, although some types of stone can definitely be applied for external prolonged use through the years.</p>
-                    </div>
-                    <div class="materials-explained">
-                        <span><strong>Cement bricks: 90 cents/kg</strong></span>
-                        <p>These type of bricks are by far the strongest and most reliable on the market. They are relatively cheap and allow you to bring your design to life and have stand the test of time. These type of bricks give you the freedom to apply a generous amount of different coatings and are usually set up to create dividers or structuring walls. The best use for these is to place them there where you know you are going to use coatings and provide a smooth and uniform finish to them. This way you will get all the pros of their solidity and non of the cons of their exterior appearance.</p>
-                    </div>
                 </div>
+                <div class="materials-explained">
+                    <span><strong>Cement bricks: 90 cents/kg</strong></span>
+                    <p>These type of bricks are by far the strongest and most reliable on the market. They are relatively cheap and allow you to bring your design to life and have stand the test of time. These type of bricks give you the freedom to apply a generous amount of different coatings and are usually set up to create dividers or structuring walls. The best use for these is to place them there where you know you are going to use coatings and provide a smooth and uniform finish to them. This way you will get all the pros of their solidity and non of the cons of their exterior appearance.</p>
+                </div>
+            </div>
         </section>
-            <!-- section with the hours of work with brief explaination to consider for the user -->
+        <!-- section with the hours of work with brief explaination to consider for the user -->
         <section id="hours-of-work">
             <h2>hours of work</h2>
             <input type="number" name="total-hours" id="total-hours">
@@ -156,8 +162,11 @@
                 <div class="next-button">
                     <p>Next</p>
                 </div>
+                <div class="previous-page">
+                    <p>Back</p>
+                </div>
             </div>
-           
+            
         </section>
         <!-- total cost section that will display the final cost with JS -->
         <section id="total-cost">
@@ -169,6 +178,9 @@
             <!-- div used as a button to move back to the materials section of the website -->
             <div id="back">
                 <p>Go Back</p>
+            </div>
+            <div class="previous-page">
+                <p>Back</p>
             </div>
         </section>
     </main>

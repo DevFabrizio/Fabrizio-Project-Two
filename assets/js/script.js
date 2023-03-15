@@ -49,10 +49,27 @@ function moveThroughSections(event) {
         nextSection.style.display = 'flex';
     }
 }
-
+ 
 let nextButton = document.getElementsByClassName ('next-button');
 for (let buttons of nextButton) {
     buttons.addEventListener ('click', moveThroughSections);
+}
+
+// function to navigate through the sections (previous page button)
+
+function backToPreviousPage(event) {
+
+    let currentSection = document.querySelector("section:not([style*='display: none'])");
+    let previousSection = currentSection.previousElementSibling;
+    if (previousSection !== null){
+        currentSection.style.display = 'none';
+        previousSection.style.display = 'flex';
+    }
+}
+
+let backButton = document.getElementsByClassName('previous-page');
+for (let buttons of backButton){
+    buttons.addEventListener ('click', backToPreviousPage);
 }
 
 // function to display the alert that the data from the user has been input correctly
