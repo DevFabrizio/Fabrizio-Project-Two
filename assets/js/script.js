@@ -84,18 +84,6 @@ function userDataAlert(event) {
 
 submitForm.addEventListener ('submit', userDataAlert);
  
-// function to return to the materials page
-
-// function backToMainPage (event) {
-
-//     document.getElementById('total-cost').style.display = 'none';
-//     document.getElementById('form').style.display = 'flex';
-
-// }
-
-// let mainPageButton = document.getElementById ('back');
-// mainPageButton.addEventListener ('click', backToMainPage);
-
 // function to show the website instructions on all sections
 
 function information (event) {
@@ -146,9 +134,9 @@ function displayNumber(event){
         
     // insert the value provided by the user multiplied by their price to generate final price
             
-    price.textContent = mortar * 0.70 +
+    price.textContent = mortar * 0.90 +
     sand * 0.10 +
-    cement * 0.80 +
+    cement * 0.20 +
     redBricks * 1 +
     stoneBricks * 1.50 +
     concreteBricks * 0.90 + ' euros';
