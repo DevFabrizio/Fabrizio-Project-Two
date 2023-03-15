@@ -343,6 +343,11 @@ span:hover{
     font-size: larger;
 }
 
+#total-cost > .previous-page{
+    padding: 0;
+    margin-top: 12vw;
+}
+
 /* style of the back button */
 
 #back{

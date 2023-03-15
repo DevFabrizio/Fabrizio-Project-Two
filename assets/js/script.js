@@ -86,15 +86,15 @@ submitForm.addEventListener ('submit', userDataAlert);
  
 // function to return to the materials page
 
-function backToMainPage (event) {
+// function backToMainPage (event) {
 
-    document.getElementById('total-cost').style.display = 'none';
-    document.getElementById('form').style.display = 'flex';
+//     document.getElementById('total-cost').style.display = 'none';
+//     document.getElementById('form').style.display = 'flex';
 
-}
+// }
 
-let mainPageButton = document.getElementById ('back');
-mainPageButton.addEventListener ('click', backToMainPage);
+// let mainPageButton = document.getElementById ('back');
+// mainPageButton.addEventListener ('click', backToMainPage);
 
 // function to show the website instructions on all sections
 
@@ -139,19 +139,21 @@ function displayNumber(event){
     <li>${concreteBricks} kg of concrete bricks</li>
     <li>${hoursOfWork} hours of work</li>`;
         
-        // retrieve the ul element from the DOM
+    // retrieve the ul element from the DOM
         
-        let ul = document.getElementsByTagName('ul')[0];
-        ul.innerHTML = listItem;
+    let ul = document.getElementsByTagName('ul')[0];
+    ul.innerHTML = listItem;
         
-            // insert the value provided by the user multiplied by their price to generate final price
+    // insert the value provided by the user multiplied by their price to generate final price
             
-            price.textContent = mortar * 0.70 +
-            sand * 0.10 +
-            cement * 0.80 +
-            redBricks * 1 +
-            stoneBricks * 1.50 +
-            concreteBricks * 0.90 + ' euros';
+    price.textContent = mortar * 0.70 +
+    sand * 0.10 +
+    cement * 0.80 +
+    redBricks * 1 +
+    stoneBricks * 1.50 +
+    concreteBricks * 0.90 + ' euros';
+
+    moveThroughSections()
             
 }
         
