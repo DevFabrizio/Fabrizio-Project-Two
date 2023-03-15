@@ -301,6 +301,10 @@ span:hover{
     margin-bottom: 14vw;
 }
 
+#hours-of-work > .buttons-container{
+    margin-bottom: 20vw;
+}
+
 .submit{
     width: 4rem;
     height: 1.6rem;
@@ -333,8 +337,15 @@ span:hover{
     font-size: x-large;
 }
 
-#total-cost p{
+#total-cost > .previous-page > p{
     padding: 1em;
+}
+
+#price{
+    padding: 1em;
+    padding-bottom: 0;
+    border-bottom: 3px solid firebrick;
+    margin-bottom: 1em;
 }
 
 #total-cost h4{
@@ -345,10 +356,19 @@ span:hover{
 #total-cost > .previous-page{
     padding: 0;
     margin-top: 12vw;
+    margin-bottom: 10vw;
 }
 
 #total-cost > .previous-page p{
     padding: 0;
+}
+
+ul{
+    background: white;
+    border-radius: 10px;
+    padding: 10vw;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 2vw;
 }
 
 /* style of the back button */
