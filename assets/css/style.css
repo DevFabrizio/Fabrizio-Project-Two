@@ -348,6 +348,10 @@ span:hover{
     margin-top: 12vw;
 }
 
+#total-cost > .previous-page p{
+    padding: 0;
+}
+
 /* style of the back button */
 
 #back{
