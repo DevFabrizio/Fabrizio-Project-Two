@@ -80,10 +80,6 @@ body{
     gap: 10vw;
 }
 
-#form > .next-button{
-    margin-bottom: 10vw;
-}
-
 form{
     display: flex;
     flex-direction: column;
@@ -98,6 +94,10 @@ form > input{
     padding: 1vw;
     border: 4px solid grey;
     border-radius: 6px;
+}
+
+form > input[type=submit]{
+    margin-bottom: 7vw;
 }
 
 form > input:hover{
@@ -164,6 +164,13 @@ h2{
     display: flex;
     gap: 7vw;
     margin-bottom: 9vw;
+}
+
+.materials-explained{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .materials-explained p{
@@ -353,6 +360,7 @@ footer{
     background: linear-gradient(90deg, rgb(151, 144, 144) 55%, rgb(207, 54, 12) 100%);
 }
 
+
 /* responsiveness for tablet */
 
 @media screen and (min-width: 425px) {
@@ -374,12 +382,12 @@ footer{
 
     /* brick-type section */
 
-    #brick-type > img{
-        height: 60vw;
-    }
-
     #brick-type > .checkboxes-quantity {
         gap: 7vw;
+    }
+
+    #brick-type-container{
+        margin-left: 12vw;
     }
 }
 
@@ -387,6 +395,40 @@ footer{
 
 @media screen and (min-width:768px) {
     
+    /* header section */
+
+    #header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #header-title{
+        margin-top: -10vw;
+    }
+
+    #info-icon{
+        margin-top: -3vw;
+    }
+
+    /* form section */
+    
+    form{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3vw;
+    }
+
+    form > input{
+        width: 29%;
+    }
+
+    form > input[type=submit]{
+        width: 10%;
+    }
+
     /* materials section */
 
     input[type=number]{
@@ -404,21 +446,38 @@ footer{
     }
 
     .materials-details{
-        margin-top: 20vw;
+        margin-top: 10vw;
         margin-bottom: 3rem;
         display: flex;
     }
 
     h2{
         margin-bottom: 8vw;
+        margin-top: 0vw;
     }
 
+    
     /* brick-type section */
+    
+    #brick-type > img{
+        width: 73%;
+        top: 17vw;
+    }
 
     #brick-type > .materials-details{
-        margin-top: 23vw;
+        margin-top: 10vw;
+    }
+
+    #interactive-section-bg{
+        width: 73%;
+        top: 17vw;
+    }
+
+    #brick-type-container{
+        margin-left: 2vw;
     }
 }
+
 
 /* responisiveness for mobile */
 
