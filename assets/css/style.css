@@ -142,7 +142,7 @@ label{
 }
 
 .materials-details{
-    margin-top: 17vw;
+    margin-top: 7vw;
     margin-bottom: 3rem;
 }
 
@@ -215,6 +215,11 @@ span:hover{
 
 .next-button > p{
     font-weight: 600;
+}
+
+.buttons-container{
+    display: flex;
+    gap: 2rem;
 }
 
 .previous-page{
@@ -294,12 +299,6 @@ span:hover{
 
 #hours-of-work > .next-button{
     margin-bottom: 14vw;
-}
-
-.buttons-container{
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 17vw;
 }
 
 .submit{
@@ -474,7 +473,6 @@ footer{
     }
 
     .materials-details{
-        margin-top: 10vw;
         margin-bottom: 3rem;
         display: flex;
     }
@@ -521,6 +519,10 @@ footer{
 
     .checkboxes-quantity{
         gap: 3vw;
+    }
+
+    .materials-details{
+        margin-top: 17vw;
     }
 }
 
