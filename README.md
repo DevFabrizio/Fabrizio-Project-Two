@@ -34,6 +34,20 @@ The reason behind this seemingly odd choice was dictated by the fact that in bot
 
 For the second type of possible audience for this website, the reasoning behind was that once retirement is near or already the present condition is not unusual to start contacting companies to work on house that has seen many years of use and tear. In this case the senior citizen could definitely make the most out of a simple and immediate platform to estimate the cost and scope of the renovation.
 ## User Story
+The user story for this project is a brief list of the actions that the user might decide to take after landing on the first page of the website. Obviously these choices are restricted by the type of interactivity that was implemented in the different sections. 
+As a user I want to:
+* Land on a page that is easy to understand and provides simple instruction for the website
+* Interact with the first features of the website (fill in the user's informations)
+* Click on the next button to navigate to the next page 
+* Have a simple interface which allows me to input the type and quantity of materials that I need
+* Read the descriptions for the materials and their costs and proceed to the next section through a button
+* Interact with a simple panel which allows me to pick from different brick types and their quantities
+* Access a short descriptive section of the type of bricks to get a quick insight on their specific use
+* Proceed to a page where I can input the amount of time needed or estimated for the renovation
+* Read a paragraph about the variable to consider when planning the amount of time required for the project
+* Submit all my inputs and go to the next page with just one button
+* Have access to my final quote for the project which includes the price, hours of work required and the type and amount of materials used
+ 
 ## Interactions and Features
 For this part of the project I thought about different ways to keep the website easy to use. The main interactive features are click events and the acquisition of data input that the user provided. In order to progress easily through the different interactions I used a simple click event that allows the user to navigate the possible choices present.
 ### Feautures Used
