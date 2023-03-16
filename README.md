@@ -1,6 +1,5 @@
 # Fabrizio Milestone Project 2
 #### [Link to GitHub Pages]()
-#### [Link to Repository](https://github.com/DevFabrizio/Fabrizio-Project-Two)
 ## Introduction
 [amIresponsive link]()
 ## UX
@@ -9,7 +8,9 @@ When approaching the main strategy and the initial phase of this project I thoug
 ### Scope Plane
 As a specific scope the website aims to provide a range of options to choose from and to establish the quantity needed. The final output is then given back to the user based on the information that they provided. The general goals were to create a platform easy to use and that would elicit a positive response from the user.
 ### Structure Plane
-The decisions on the general structure of the project where taken considering a layout that would have allowed to implement future features and mostly a user interface that was easy to maintain and access. With responsiveness is mind the information is layered on a series of interfaces with matching structure as to maintain a sense of familiarity while interacting with the different sections of the website
+The decisions on the general structure of the project where taken considering a layout that would have allowed to implement future features and mostly a user interface that was easy to maintain and access. With responsiveness is mind the information is layered on a series of interfaces with matching structure as to maintain a sense of familiarity while interacting with the different sections of the website.
+
+[Wireframe for the project]()
 ### Skeleton Plane
 Various blocks of the project have been designed to accomodate inputs from the user. In addition to that, below the interactive part of the website I have also included a section that provides information about the current possible interactions of the projects. The website develops mainly in a vertical fashion to allow better responsiveness for mobile.
 ### Surface Plane
@@ -18,7 +19,10 @@ Planning for the surface plane was relatively easy as in I didn't want to create
 Starting from the font used, the idea was to utilize a style that would make the user feel that "old school" appereance. Any full cursive type of font would have the defeated the purpose of immediate access to the information. Knowing that the first few seconds on a website are crucial I took the decision to go with Nanum Myeongjo because it was on of the few that hit the right spot between style and functionality.
 
 The background chosen was decided to recall the general purpose of the website but also to provide a simple image that allowed the user to scroll through the content without distractions. 
-[Color Palette Used]()
+
+Following this paragraph you'll find the color palette used for the project. Given the fact that the website displays information about different materials for home renovation projects, the colors I used mainly hint at the same colors that can be found among typical materials for contruction.
+
+[Color Palette Used](/docs/images/PP2-color-palette.png)
 ## Project Goals
 The main goal of this project is to provide an accessible quote generator through an interactive single webpage. The website would provide an easy-to-use interface through which the clients have the possibility of calculating the total cost of the materials they need to complete a home diy renovation project or for a contractor to know the amount of capital to invest in a specific job. Due to the infinite amount of variables to include in the time needed for the project it would have been unwise of me to try an estimate that on the project. 
 ### Target Audience

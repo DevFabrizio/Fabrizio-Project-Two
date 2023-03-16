@@ -3,15 +3,9 @@
 // variables ready to be defined after content loading
 
 const infoIcon = '';
-const mortarInput = ''; 
-const sandInput = '';
-const cementInput = ''; 
 const mortarQty = '';
 const sandQty = '';
-const cementQty = ''; 
-const redBricksInput = '';
-const stoneBricksInput = '';
-const concreteBricksInput = '';
+const cementQty = '';
 const redBricksQty = '';
 const stoneBricksQty = '';
 const concreteBricksQty = '';
@@ -23,15 +17,9 @@ const totalCost = '';
 document.addEventListener("DOMContentLoaded", function () {
 
     const infoIcon = document.getElementById("info-icon");
-    const mortarInput = document.getElementById("mortar");
-    const sandInput = document.getElementById("sand");
-    const cementInput = document.getElementById("cement");
     const mortarQty = document.getElementById("mortar-quantity");
     const sandQty = document.getElementById("sand-quantity");
     const cementQty = document.getElementById("cement-quantity");
-    const redBricksInput = document.getElementById("red-bricks");
-    const stoneBricksInput = document.getElementById("stone-bricks");
-    const concreteBricksInput = document.getElementById("concrete-bricks");
     const redBricksQty = document.getElementById("red-bricks-quantity");
     const stoneBricksQty = document.getElementById("stone-bricks-quantity") ;
     const concreteBricksQty = document.getElementById("concrete-bricks-quantity") ;
@@ -105,7 +93,7 @@ function information (event) {
 let infoBox = document.getElementById('info-icon');
 infoBox.addEventListener('click', information);
 
-// function to insert data into the list of items
+// function to insert data in the list of items
 
 function displayNumber(event){
     
