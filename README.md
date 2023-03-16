@@ -14,7 +14,7 @@ The decisions on the general structure of the project where taken considering a 
 ### Skeleton Plane
 Various blocks of the project have been designed to accomodate inputs from the user. In addition to that, below the interactive part of the website I have also included a section that provides information about the current possible interactions of the projects. The website develops mainly in a vertical fashion to allow better responsiveness for mobile.
 ### Surface Plane
-Planning for the surface plane was relatively easy as in I didn't want to create an interface with as many interactive features as possible but rather a structure that would have served the purpose it was designed for. 
+Planning for the surface plane was relatively easy as I didn't want to create an interface with as many interactive features as possible but rather a structure that would have served the purpose it was designed for. The layout is very similar for the different screen sizes and the style of the various sections makes the content easy to access and provides a recognizable platform that is intuitive to follow and use.
 #### Fonts, Colors and Style Choices
 Starting from the font used, the idea was to utilize a style that would make the user feel that "old school" appereance. Any full cursive type of font would have the defeated the purpose of immediate access to the information. Knowing that the first few seconds on a website are crucial I took the decision to go with Nanum Myeongjo because it was on of the few that hit the right spot between style and functionality.
 
