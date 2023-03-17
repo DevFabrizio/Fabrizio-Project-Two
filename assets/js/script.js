@@ -1,35 +1,8 @@
 /* jshint esversion: 6 */
 
-// variables ready to be defined after content loading
-
-const infoIcon = '';
-const mortarQty = '';
-const sandQty = '';
-const cementQty = '';
-const redBricksQty = '';
-const stoneBricksQty = '';
-const concreteBricksQty = '';
-const hoursOfWorkInput = '';
-const totalCost = '';
-
-// // function to give the proper values to the empty variables above 
-
-document.addEventListener("DOMContentLoaded", function () {
-
-    const infoIcon = document.getElementById("info-icon");
-    const mortarQty = document.getElementById("mortar-quantity");
-    const sandQty = document.getElementById("sand-quantity");
-    const cementQty = document.getElementById("cement-quantity");
-    const redBricksQty = document.getElementById("red-bricks-quantity");
-    const stoneBricksQty = document.getElementById("stone-bricks-quantity") ;
-    const concreteBricksQty = document.getElementById("concrete-bricks-quantity") ;
-    const hoursOfWorkInput = document.getElementById("hours-of-work");
-    const totalCost = document.getElementById("total-cost");
-});
-
  // function to shift through materials, bricks, hours of work and final list
 function moveThroughSections(event) {
-    
+    // from line 33 col 35 to line 33 col 90 credit to https://www.codingem.com/
     let currentSection = document.querySelector("section:not([style*='display: none'])");
     let nextSection = currentSection.nextElementSibling;
     if (nextSection !== null){
@@ -105,7 +78,6 @@ function displayNumber(event){
     let concreteBricks = document.getElementById('concrete-bricks-quantity').value;
     let hoursOfWork = document.getElementById('total-hours').value;
     let price = document.getElementById('price');
-    let inputArray = [mortar, sand, cement, redBricks, stoneBricks, concreteBricks]; 
 
     let listItem = `<li>${mortar} kg of mortar</li>
     <li>${sand} kg of sand</li>
@@ -121,14 +93,15 @@ function displayNumber(event){
     ul.innerHTML = listItem;
         
     // insert the value provided by the user multiplied by their price to generate final price
-            
-    price.textContent = mortar * 0.90 +
-    sand * 0.10 +
-    cement * 0.20 +
-    redBricks * 1 +
-    stoneBricks * 1.50 +
-    concreteBricks * 0.90 + ' euros';
 
+    let addition = mortar * 0.90 +
+                   sand * 0.10 +
+                   cement * 0.20 +
+                   redBricks * 1 +
+                   stoneBricks * 1.50 +
+                   concreteBricks * 0.90;
+
+    price.textContent = addition.toFixed(1) + ' euros';
     moveThroughSections();
             
 }
