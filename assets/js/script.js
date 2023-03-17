@@ -66,7 +66,7 @@ let submitForm = document.getElementById ('user-info');
 function userDataAlert(event) {
     event.preventDefault ();
     alert ('The form has been submitted succesfully!');
-    moveThroughSections()
+    moveThroughSections();
     
 }
 
@@ -129,7 +129,7 @@ function displayNumber(event){
     stoneBricks * 1.50 +
     concreteBricks * 0.90 + ' euros';
 
-    moveThroughSections()
+    moveThroughSections();
             
 }
         

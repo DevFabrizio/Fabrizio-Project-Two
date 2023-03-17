@@ -120,9 +120,9 @@ input[type=number]{
     height: 6vw;
 }
 
-label{
+#checkboxes-container  p{
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 #materials{
@@ -164,6 +164,10 @@ h2{
     display: flex;
     gap: 7vw;
     margin-bottom: 9vw;
+}
+
+.checkboxes-quantity label{
+    font-weight: 600;
 }
 
 .materials-explained{
@@ -258,7 +262,12 @@ span:hover{
     flex-direction: row;
     gap: 8vw;
     margin-bottom: 9vw;
-    margin-left: 8vw;
+    margin-left: 1vw;
+}
+
+#brick-type-container p{
+    font-weight: bold;
+    font-size: 4vw;
 }
 
 #interactive-section-bg-brick{
@@ -272,7 +281,7 @@ span:hover{
 }
 
 #brick-type > img{
-    top: 37vw;
+    top: 34vw;
 }
 
 /* style hours of work section */
@@ -434,7 +443,15 @@ footer{
     }
 
     #brick-type-container{
-        margin-left: 12vw;
+        margin-left: 1vw;
+    }
+
+    #brick-type-container p {
+        font-size: 3.4vw;
+    }
+
+    #interactive-section-bg-brick{
+        width: 80%;
     }
 }
 
@@ -521,6 +538,7 @@ footer{
 
     #brick-type-container{
         margin-left: 2vw;
+        gap: 5vw;
     }
 }
 
