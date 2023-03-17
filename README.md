@@ -97,6 +97,8 @@ The footer bottom bar, just like the main background, main title and information
 
 ### Future Features
 This project is meant to be able to evolve overtime and implement a wide range of options to generate a much complete quote of all the materials required to complete a renovation. One of the many features that could be added overtime is surely an improved list of materials. Obviously related to materials we have prices. The most useful upgrade that I think could be added is an average price for the materials updated daily from the catalogues of sector-leading companies. This would assure that the user would obtain a result which matches a true price that they could find in a regular supply store.
+
+As a specific future feature for the footer I think it would be wise to consider social media links once the page has a decent amount of content to share and perhaps some links for related articles and tutorials (like a blog or a discussion forum) specifically addressedd to home renovation projects.
 ## Testing and Technologies
 ### Tech Used
 The main technologies used for this project are:
