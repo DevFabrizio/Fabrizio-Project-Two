@@ -97,7 +97,7 @@ form > input{
 }
 
 form > input[type=submit]{
-    margin-bottom: 7vw;
+    margin-bottom: 15vw;
 }
 
 form > input:hover{
@@ -365,7 +365,7 @@ span:hover{
 #total-cost > .previous-page{
     padding: 0;
     margin-top: 12vw;
-    margin-bottom: 10vw;
+    margin-bottom: 13vw;
 }
 
 #total-cost > .previous-page p{
