@@ -47,10 +47,54 @@ As a user I want to:
 * Read a paragraph about the variable to consider when planning the amount of time required for the project
 * Submit all my inputs and go to the next page with just one button
 * Have access to my final quote for the project which includes the price, hours of work required and the type and amount of materials used
- 
+
 ## Interactions and Features
 For this part of the project I thought about different ways to keep the website easy to use. The main interactive features are click events and the acquisition of data input that the user provided. In order to progress easily through the different interactions I used a simple click event that allows the user to navigate the possible choices present.
 ### Feautures Used
+On this section I would like to walk through the features that I implemented in the project to make it intuitive and interactive.
+
+![Main background](/docs/images/main-bg.png)
+
+As a feature for the main background I have decided to apply an image that would convey a general idea about what the website is about at first glance. I went with a classic brick wall because not only serves as a neutral tone background perfectly for this project but also because is also a common background in many cities around the world. 
+
+![Title and information icon](/docs/images/title-and-info-icon.png)
+
+As the first thing that the user sees when they land on the initial page is obviously a recognizable title. As stated in the fonts section I have used a font with "old school" features. This is because although home renovation has evolved with time the main techniques and materials used are still the same. The icon is the first interactive features of the website and when clicked displays a box with the instructions on how to use the website. The icon is reoccurent through the various sections of the project. In this way the user can always refer to it if the need arises.
+
+![User informations form](/docs/images/user's-info.png)
+
+Displayed in the first page to the user, this section was designed to allow the user to input the information needed in order to receive the final quote on their email and to create an account on the website (both future features to add). The layout of the form input fields is minimal and not too invasive. This helps the user to move on to the next section rapidily without having to type too much on the first page.
+
+![Alert message](/docs/images/alert-message.png)
+
+As the user clicks the submit button in the previous form an alert message appears on top of the page. This message is a confirmation the the information that the user provided are valid. If the user would input data that is typed in the wrong format, the self-checking input fields would alert with the browser message directly on the input.
+
+![First interactive section](/docs/images/interactive-section.png)
+
+Finally we land on the main interactive section of the website. Here we are presented with a box that shows the user a variety of options to choose from. Every option is paired with a number input which allows the user to pick the type and quantity at the same time. This feature eliminates the need for an additional checkbox which would have not served a practical purpose. On the bottom of the section we see two buttons. The one called "next", when clicked, allows the user to move forward in the website and brings him to the next section. The one called "back" brings the user back to the user input section where they can change the information submitted in case they realize they typed wrongly.
+In order to utilize redundancy as a familiarity tool, the interactive box of the next section is styled the same as the first one. This way the user will be immediatly able to continue with the selection of other materials and not having to figure out how to approach a completely different layout.
+
+![Descriptive section](/docs/images/descriptive-section.png)
+
+Just below the interactive section the user can read more about the materials and prices in the description boxes. The information in the boxes is a short paragraph that lists some of the characteristics of the possible choices and is accompanied by a visible title which also includes the price per kilo of the material. This section serves the user when they are not sure what to pick and might use some guidance along the way. 
+
+![Hours of Work](/docs/images/hours-of-work-input.png)
+
+Advancing from the interactive sections regarding the materials we find the section dedicated to the hours of work. In this section of the website the first unique feature we find is the title and number input for the amount of hours required in order to complete the renovation project. This particular feature allows the user to add the hours of work estimated in order to have complete list as the end result. 
+
+![Description of the hours of work](/docs/images/hours-of-work-description.png)
+
+Below the hours of work input the user can explore the topic further by focusing on the description below the number input. In this description the user will be able to find additional information about what to keep in mind when planning the timing of the renovation project. Obviously it would have been impossible to describe all the possible factors that can influence the time required for even the smallest renovation. This is why I decided to onlu included the most inportant ones in the paragraph. On the bottom of the section we find the "submit" and "back" buttons. While we have encoutered the back button before the "submit" one on this section has a different function than the first one seen on the user's information section. This submit button not only will submit all the user's choices made in the previous sections but also will allow us to move directly on the final section of the website to finally visualize the quote for our project.
+
+![Final list section](/docs/images/final-list-and-cost.png)
+
+As a final section we land on the list and cost page. This interface includes the user's choices and the total cost for the materials. In addition to that we also get the hours of work the user has input in the previous section. The cost for the project is displayed above the list because it is one of the most influencing factors when it comes to making a decision about a home renovation project. With the final "back" button the user can navigate back to the earlier section without having to refresh the page and start the process all over again.
+
+![Footer](/docs/images/footer.png)
+
+The footer bottom bar, just like the main background, main title and information icon, is present on every page and serves the initial purpose of crediting the creator of the website. Some additional features for this part are described in the "Future Features" section of this README file.
+
+
 ### Future Features
 This project is meant to be able to evolve overtime and implement a wide range of options to generate a much complete quote of all the materials required to complete a renovation. One of the many features that could be added overtime is surely an improved list of materials. Obviously related to materials we have prices. The most useful upgrade that I think could be added is an average price for the materials updated daily from the catalogues of sector-leading companies. This would assure that the user would obtain a result which matches a true price that they could find in a regular supply store.
 ## Testing and Technologies
