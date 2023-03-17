@@ -119,3 +119,5 @@ The icons in this website have been taken from [Font Awesome](https://fontawesom
 The pictures have been taken from [FreePix](https://www.freepik.com/)
 
  and the gradient have been created with [CSS Gradient](https://cssgradient.io/)
+
+ Code for script.js on lines 6 and 23 taken from https://www.codingem.com/

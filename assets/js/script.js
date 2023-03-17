@@ -2,7 +2,7 @@
 
  // function to shift through materials, bricks, hours of work and final list
 function moveThroughSections(event) {
-    // from line 33 col 35 to line 33 col 90 credit to https://www.codingem.com/
+    // from line 6 col 35 to line 6 col 90 credit to https://www.codingem.com/
     let currentSection = document.querySelector("section:not([style*='display: none'])");
     let nextSection = currentSection.nextElementSibling;
     if (nextSection !== null){
@@ -19,7 +19,7 @@ for (let buttons of nextButton) {
 // function to navigate through the sections (previous page button)
 
 function backToPreviousPage(event) {
-
+    // from line 23 col 35 to line 23 col 90 credit to https://www.codingem.com/
     let currentSection = document.querySelector("section:not([style*='display: none'])");
     let previousSection = currentSection.previousElementSibling;
     if (previousSection !== null){
