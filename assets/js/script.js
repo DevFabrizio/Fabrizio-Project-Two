@@ -1,6 +1,8 @@
 /* jshint esversion: 6 */
 
- // function to shift through materials, bricks, hours of work and final list
+ /** function to shift through materials, bricks, hours of work and final list
+  * @param is set to respond to a click event */ 
+ 
 function moveThroughSections(event) {
     // from line 6 col 35 to line 6 col 90 credit to https://www.codingem.com/
     let currentSection = document.querySelector("section:not([style*='display: none'])");
@@ -16,7 +18,8 @@ for (let buttons of nextButton) {
     buttons.addEventListener ('click', moveThroughSections);
 }
 
-// function to navigate through the sections (previous page button)
+/** function to navigate through the sections (previous page button)
+ * @param is set to respond to a click event */ 
 
 function backToPreviousPage(event) {
     // from line 23 col 35 to line 23 col 90 credit to https://www.codingem.com/
@@ -33,7 +36,8 @@ for (let buttons of backButton){
     buttons.addEventListener ('click', backToPreviousPage);
 }
 
-// function to display the alert that the data from the user has been input correctly
+/** function to display the alert that the data from the user has been input correctly
+ * @param is set to respond to a submit event */ 
 
 let submitForm = document.getElementById ('user-info');
 function userDataAlert(event) {
@@ -45,7 +49,8 @@ function userDataAlert(event) {
 
 submitForm.addEventListener ('submit', userDataAlert);
  
-// function to show the website instructions on all sections
+/** function to show the website instructions on all sections
+ * @param is set to respond to a click event */ 
 
 function information (event) {
     let bgImage = document.getElementById('interactive-section-bg');
@@ -66,7 +71,8 @@ function information (event) {
 let infoBox = document.getElementById('info-icon');
 infoBox.addEventListener('click', information);
 
-// function to insert data in the list of items
+/** function to insert data in the list of items
+ * @param is set to respond to a click event */ 
 
 function displayNumber(event){
     
