@@ -105,6 +105,9 @@ The main technologies used for this project are:
 * HTML
 * CSS 
 * JavaScript
+
+In addition to these I had to rely on external websites to manipulate images and format them to better fit the project. 
+The website that I used is [Cloud Convert](https://cloudconvert.com/). In particular this website allowed me to change the format of the images and to resize them appropriately. The IDE used for the project is [GitPod](https://www.gitpod.io/) and the repository and deployement webiste is [GitHub](https://github.com/). The fonts used are taken from [Google Fonts](https://fonts.google.com/). For the pictures I used [FreePix](https://www.freepik.com/) and [Pexels](https://www.pexels.com/it-it/), and in order to obtain some color gradients I used [Coolors](https://cssgradient.io/). 
 ### Bugs
 Among the various bugs I have encoutered the first was a mistake in targeting an html collection on JS instead of a single element. I used a "getElementsByClassName" with its appropriate index to get the result I needed.
 ### HTML, CSS and JavaScript Validation 
