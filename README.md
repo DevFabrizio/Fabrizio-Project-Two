@@ -108,7 +108,14 @@ The main technologies used for this project are:
 ### Bugs
 Among the various bugs I have encoutered the first was a mistake in targeting an html collection on JS instead of a single element. I used a "getElementsByClassName" with its appropriate index to get the result I needed.
 ### HTML, CSS and JavaScript Validation 
+After some correction the code passed through the validators for the HTML, CSS and JavaScript files. The tools used for this task are:
+* [W3C Validator](https://validator.w3.org/nu/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [JSHint JavaScript Validator](https://jshint.com/)
 ## Lighthouse Report
+The following are the results for the Chrome Developer Tools Lighthouse report for both Mobile and Desktop
+* ![Mobile Report](/docs/images/mobile-lighthouse-report.png)
+* ![Desktop Report](/docs/images/desktop-lighthouse-report.png)
 ## Deployment and Updates
 ### Deployment steps
 ## Development

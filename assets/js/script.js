@@ -2,7 +2,7 @@
 
  /** function to shift through materials, bricks, hours of work and final list
   * @param is set to respond to a click event */ 
- 
+
 function moveThroughSections(event) {
     // from line 6 col 35 to line 6 col 90 credit to https://www.codingem.com/
     let currentSection = document.querySelector("section:not([style*='display: none'])");
@@ -86,12 +86,12 @@ function displayNumber(event){
     let price = document.getElementById('price');
 
     let listItem = `<li>${mortar} kg of mortar</li>
-    <li>${sand} kg of sand</li>
-    <li>${cement} kg of cement</li>
-    <li>${redBricks} kg of red bricks</li>
-    <li>${stoneBricks} kg of stone bricks</li>
-    <li>${concreteBricks} kg of concrete bricks</li>
-    <li>${hoursOfWork} hours of work</li>`;
+                    <li>${sand} kg of sand</li>
+                    <li>${cement} kg of cement</li>
+                    <li>${redBricks} kg of red bricks</li>
+                    <li>${stoneBricks} kg of stone bricks</li>
+                    <li>${concreteBricks} kg of concrete bricks</li>
+                    <li>${hoursOfWork} hours of work</li>`;
         
     // retrieve the ul element from the DOM
         
