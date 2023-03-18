@@ -544,6 +544,12 @@ footer{
         margin-left: 2vw;
         gap: 5vw;
     }
+
+    /* hours of work section */
+
+    #hours-of-work > p{
+        max-width: 60%;
+    }
 }
 
 /* responisiveness for mobile */
