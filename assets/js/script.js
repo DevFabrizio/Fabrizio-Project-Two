@@ -43,8 +43,7 @@ let submitForm = document.getElementById ('user-info');
 function userDataAlert(event) {
     event.preventDefault ();
     alert ('The form has been submitted succesfully!');
-    moveThroughSections();
-    
+    moveThroughSections(); 
 }
 
 submitForm.addEventListener ('submit', userDataAlert);
@@ -65,7 +64,6 @@ function information (event) {
         bgImage.style.display = 'block';
         bricksBgImage.style.display = 'block';
     }
-
 }
 
 let infoBox = document.getElementById('info-icon');
@@ -108,8 +106,7 @@ function displayNumber(event){
                    concreteBricks * 0.90;
 
     price.textContent = addition.toFixed(1) + ' euros';
-    moveThroughSections();
-            
+    moveThroughSections();           
 }
         
 let submitButton = document.getElementsByClassName('submit')[0];
