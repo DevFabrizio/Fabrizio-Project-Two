@@ -113,6 +113,7 @@ Among the various bugs I have encoutered the first was a mistake in targeting an
 ### Deployment steps
 ## Development
 ### Website Maintenance and Updates
+This website was created with massive future features and update potential. In order to make the task of updating this code easier I used a good amount of comments on all files and divided the various sections and functionalities of the website in defined blocks of code. This will allow the next developer to find parts of the code that they want to update fairly easily. The comments also allow for an easier job when updates for the different browser requirements would mandate a formatting of some part of this project
 ## Credit
 The icons in this website have been taken from [Font Awesome](https://fontawesome.com/)
 
