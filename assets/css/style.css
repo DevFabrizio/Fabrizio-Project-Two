@@ -200,7 +200,7 @@ span:hover{
     box-shadow: 2px 2px 3px black;
 }
 
-/* style for the "next" button common to the first three sections (last section has a "Go Back" text in a div with another ID) */
+/* style for the "next" button common to all the sections  */
 
 .next-button{
     width: 3rem;
@@ -400,7 +400,7 @@ ul{
     padding: 0;
 }
 
-/* footer section */
+/* style of the footer section */
 
 footer{
     position: fixed;
@@ -415,7 +415,6 @@ footer{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgb(151, 144, 144) 55%, rgb(207, 54, 12) 100%);
 }
-
 
 /* responsiveness for tablet */
 
@@ -541,7 +540,6 @@ footer{
         gap: 5vw;
     }
 }
-
 
 /* responisiveness for mobile */
 
