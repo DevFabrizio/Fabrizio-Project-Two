@@ -435,6 +435,10 @@ footer{
         margin-bottom: 6vw;
     }
 
+    .materials-details{
+        margin-top: 14vw;
+    }
+
     /* brick-type section */
 
     #brick-type > .checkboxes-quantity {
@@ -511,6 +515,7 @@ footer{
     .materials-details{
         margin-bottom: 3rem;
         display: flex;
+        margin-top: 3vw;
     }
 
     h2{
