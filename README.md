@@ -1,7 +1,7 @@
 # Fabrizio Milestone Project 2
-#### [Link to GitHub Pages]()
+#### [Link to GitHub Pages](https://devfabrizio.github.io/Fabrizio-Project-Two/)
 ## Introduction
-[amIresponsive link]()
+![amIresponsive link](/docs/images/am-i-responsive.png)
 ## UX
 ### Strategy Plane
 When approaching the main strategy and the initial phase of this project I thought about something that would be able to help the user get useful information in a very brief span of time. The main idea to create a quote generator for home renovation projects came to me because of my father who has been in this specific business his whole life. 
