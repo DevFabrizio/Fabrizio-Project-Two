@@ -111,7 +111,7 @@ The website that I used is [Cloud Convert](https://cloudconvert.com/). In partic
 ### Bugs
 Among the various bugs I have encoutered the first was a mistake in targeting an html collection on JS instead of a single element. I used a "getElementsByClassName" with its appropriate index to get the result I needed.
 ### HTML, CSS and JavaScript Validation 
-After some correction the code passed through the validators for the HTML, CSS and JavaScript files. The tools used for this task are:
+After some corrections the code passed through the validators for the HTML, CSS and JavaScript files. The tools used for this task are:
 * [W3C Validator](https://validator.w3.org/nu/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 * [JSHint JavaScript Validator](https://jshint.com/)
