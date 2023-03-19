@@ -121,6 +121,15 @@ The following are the results for the Chrome Developer Tools Lighthouse report f
 * ![Desktop Report](/docs/images/desktop-lighthouse-report.png)
 ## Deployment and Updates
 ### Deployment steps
+I have deployed this project on GitHub Pages through the following steps:
+* Entered my GitHub account through the login page
+* Clicked on this project and proceeded to to the Settings section using the navigation bar 
+* Once in the settings I clicked on the "Pages" section which I found on the vertical navigation bar on the left of the page
+* In the GitHub Pages interface I selected to deploy the repository from the main branch
+* After choosing the main branch I selected the root directory and clicked "save"
+* I then went back to the repository for this project and clicked on the action button in the navigation bar to monitor the deployment
+* As soon as the deployement was complete I linked it to this README file
+
 ## Development
 ### Website Maintenance and Updates
 This website was created with massive future features and update potential. In order to make the task of updating this code easier I used a good amount of comments on all files and divided the various sections and functionalities of the website in defined blocks of code. This will allow the next developer to find parts of the code that they want to update fairly easily. The comments also allow for an easier job when updates for the different browser requirements would mandate a formatting of some part of this project
